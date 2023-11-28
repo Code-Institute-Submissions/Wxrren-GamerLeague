@@ -1,5 +1,7 @@
 /*--------------------------------------------Colors*/
-
+.bg-color-nav {
+    background-color: rgba(255, 0, 0, 0.411);
+}
 
 /* ----------------------------------------Special paddings/margins/text */
 .features {
@@ -9,3 +11,9 @@
 
 /*--------------------------------------------Heading*/
 
+.container-fluid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
