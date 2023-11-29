@@ -2,6 +2,16 @@
 .bg-color-nav {
     background-color: rgba(255, 0, 0, 0.411);
 }
+.bg-color-tournaments {
+    background-color: aqua;
+}
+.bg-color-games {
+    background-color: blueviolet;
+}
+.bg-color-news {
+    background-color: green;
+}
+
 
 /* ----------------------------------------Special paddings/margins/text */
 .features {
@@ -9,11 +19,40 @@
     right: 0;
 }
 
-/*--------------------------------------------Heading*/
+/*--------------------------------------------Header/navbar*/
 
 .container-fluid {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
+    height: 5vh;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+}
+
+.nav-link.active {
+    background-color: rgba(255, 0, 0, 0.411);
+    border: 1px solid rgba(255, 0, 0, 0.781);
+}
+
+
+/*--------------------------------------------Hover.css*/
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(255, 0, 0, 0.411);
+    border: 1px solid rgba(255, 0, 0, 0.781);
 }
