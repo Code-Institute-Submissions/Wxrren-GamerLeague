@@ -2,12 +2,15 @@
 .bg-color-nav {
     background-color: #01012c
 }
+
 .bg-color-tournaments {
     background-color: aqua;
 }
+
 .bg-color-games {
     background-color: blueviolet;
 }
+
 .bg-color-news {
     background-color: green;
 }
@@ -26,7 +29,6 @@ h1 {
 }
 
 /*--------------------------------------------Header/navbar*/
-
 .container-fluid {
     position: fixed;
     top: 0;
@@ -43,11 +45,12 @@ h1 {
     color: white;
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     color: white;
 }
 
@@ -58,7 +61,27 @@ h1 {
 
 
 /*--------------------------------------------Hover.css*/
-.hvr-sweep-to-bottom:before {
+.nav-link.sign-in:hover {
     background-color: rgba(255, 0, 0, 0.411);
     border: 1px solid rgba(255, 0, 0, 0.781);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav-link.tournament:hover {
+    background-color: rgba(255, 0, 0, 0.411);
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav-link.news:hover {
+    background-color: rgba(255, 0, 0, 0.411);
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    color: white;
+    font-size: 1.3rem;
+}
+
+.navbar-brand:hover {
+    color: white;
 }
