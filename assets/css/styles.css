@@ -1,6 +1,6 @@
 /*--------------------------------------------Colors*/
 .bg-color-nav {
-    background-color: rgba(255, 0, 0, 0.411);
+    background-color: #01012c
 }
 .bg-color-tournaments {
     background-color: aqua;
@@ -17,6 +17,12 @@
 .features {
     position: absolute;
     right: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Nova Square', sans-serif;
+    padding-top: 8px;
 }
 
 /*--------------------------------------------Header/navbar*/
@@ -46,8 +52,8 @@
 }
 
 .nav-link.active {
-    background-color: rgba(255, 0, 0, 0.411);
-    border: 1px solid rgba(255, 0, 0, 0.781);
+    background-color: rgba(255, 0, 0, 0.781);
+    border: 1px solid rgba(255, 0, 0, 0.911);
 }
 
 
