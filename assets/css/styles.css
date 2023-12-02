@@ -3,21 +3,16 @@
     background-color: #01012c
 }
 
-.bg-color-tournaments {
-    background-color: aqua;
+.bg-color {
+    background: linear-gradient(90deg, rgba(1, 1, 44, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(255, 0, 0, 1) 100%);
 }
 
-.bg-color-games {
-    background-color: blueviolet;
-}
-
-.bg-color-news {
-    background-color: green;
-}
-
-.bg-color-image {
+.bg-color-opaque {
     background-color: rgba(0, 0, 0, .6);
+    height: 100%;
 }
+
+/*--------------------------------------------Colors */
 
 /* ----------------------------------------Special paddings/margins/text */
 .features {
@@ -30,6 +25,8 @@ h1 {
     font-family: 'Nova Square', sans-serif;
     padding-top: 8px;
 }
+
+/*--------------------------------------------End of Special paddings/margins/text */
 
 /*--------------------------------------------Header/navbar*/
 .container-fluid {
@@ -59,9 +56,11 @@ h1 {
 
 .nav-link.active {
     background-color: rgba(255, 0, 0, 0.411);
-    border: 1px solid rgba(255, 0, 0, 0.781); 
+    border: 1px solid rgba(255, 0, 0, 0.781);
     font-size: 1.3rem;
 }
+
+/*--------------------------------------------End of Header/navbar*/
 
 /*--------------------------------------------Hover.css*/
 .nav-link.sign-in:hover {
@@ -89,17 +88,20 @@ h1 {
     color: white;
 }
 
-.nav-link:focus, .nav-link:hover {
+.nav-link:focus,
+.nav-link:hover {
     color: white;
     background-color: rgba(255, 0, 0, 0.411);
     border: 1px solid rgba(255, 0, 0, 0.781);
     font-size: 1.3rem;
 }
 
+/*--------------------------------------------End of Hover.css*/
+
 /*--------------------------------------------Call to action/Section 1 */
 #cta {
-  height: 70vh;
-  padding-top: 3vh;
+    height: 70vh;
+    padding-top: 3vh;
 
 }
 
@@ -109,8 +111,13 @@ h1 {
     overflow: hidden;
     max-width: 100%;
     max-height: 100%;
-   }
+}
 
+.structure {
+    color: white;
+}
+
+/*--------------------------------------------End of Call to action/Section 1*/
 
 /*--------------------------------------------Upcoming Tournaments/Section 2 */
 #upcoming-tournaments {
@@ -118,16 +125,27 @@ h1 {
     padding-top: 2vh;
 }
 
+/*--------------------------------------------End of Upcoming Tournaments/Section 2*/
+
 /*--------------------------------------------Games/Section 3 */
 #games {
     height: 33.33vh;
 }
 
-/*--------------------------------------------media queries*/
+/*--------------------------------------------End of Games/Section 3*/
+
+/*--------------------------------------------Media queries*/
 @media(max-width: 992px) {
     .background-image {
         height: 68vh;
         width: 100%;
         object-fit: cover;
-       }
+    }
+
+    #upcoming-tournaments {
+        height: 33.33vh;
+        padding-top: 0;
+    }
 }
+
+/*--------------------------------------------End of Media queries*/
