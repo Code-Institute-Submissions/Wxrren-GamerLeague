@@ -52,16 +52,16 @@
             <form method="post" action="thank-you.html">
                 <fieldset>
                     <legend>Join GamerLeague</legend>
-                    <label for="first-name">Enter Your Full Name:
+                    <label for="full-name">Enter Your Full Name:
                         <input id="full-name" name="full-name" type="text" required /></label>
                     <label for="username">Create a Username:
                         <input id="username" name="username" type="text" required /></label>
                     <label for="email">Enter Your Email:
                         <input id="email" name="email" type="email" required /></label>
-                        <label for="new-password">Create a Password:
-                            <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}"
-                                title="Please enter at least 8 characters, using only lowercase letters or numbers"
-                                required /></label>
+                    <label for="new-password">Create a Password:
+                        <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}"
+                            title="Please enter at least 8 characters, using only lowercase letters or numbers"
+                            required /></label>
                     <label for="age">Select your age:
                         <select id="age" name="age" required>
                             <option value="">(select one)</option>
@@ -73,43 +73,112 @@
                     </label>
                     <label>Select your platform:</label>
                     <label for="xbox">
-                        <input id="xbox" type="radio" name="platform" required/> Xbox
+                        <input id="xbox" type="radio" name="platform" required /> Xbox
                     </label>
                     <label for="playstation">
-                        <input id="playstation" type="radio" name="platform" required/> Playstation
+                        <input id="playstation" type="radio" name="platform" required /> Playstation
                     </label>
                     <label for="steam">
-                        <input id="steam" type="radio" name="platform" required/> Steam
+                        <input id="steam" type="radio" name="platform" required /> Steam
                     </label>
                     <label for="blizzard">
-                        <input id="blizzard" type="radio" name="platform" required/> Battle.net
+                        <input id="blizzard" type="radio" name="platform" required /> Battle.net
                     </label>
-                    <button type="submit" class="sign-up">Join GamerLeague</button>
+                    <button type="submit" class="sign-up-button">Join GamerLeague</button>
                 </fieldset>
             </form>
         </div>
     </section>
 
-    <section id="upcoming-tournaments" class="bg-color">
+    <!--Row/Columns created using bootstrap-->
+    <section id="sign-up" class="bg-color">
         <div class="structure bg-color-opaque">
-            <h1>hello</h1>
-            <p> hello</p>
-            <p> hello</p>
-            <p> hello</p>
-            <p> hello</p>
+            <h2>Sign Up</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <form method="post" action="thank-you.html">
+                            <fieldset>
+                                <legend>Solo</legend>
+                                <!--Sign in details-->
+                                <label for="username-solo">Enter your Username:
+                                    <input id="username-solo" name="username" type="text" required /></label>
+                                <label for="password-solo">Enter your Password:
+                                    <input id="password-solo" name="password-solo" type="password"
+                                        pattern="[a-z0-5]{8,}"
+                                        title="Please enter at least 8 characters, using only lowercase letters or numbers"
+                                        required /></label>
+                                <!--Team names-->
+                                <label for="gamertag-solo">Enter your Gamertag:
+                                    <input id="gamertag-solo" name="username" type="text" required />
+                                </label>
+                                <!--Submit button-->
+                                <button type="submit" class="sign-up-button">Join GamerLeague</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="col-md-4">
+                        <form method="post" action="thank-you.html">
+                            <fieldset>
+                                <legend>Duo</legend>
+                                <!--Sign in details-->
+                                <label for="username-duo">Create a Username:
+                                    <input id="username-duo" name="username" type="text" required /></label>
+                                <label for="password-duo">Enter your Password:
+                                    <input id="password-duo" name="password-duo" type="password" pattern="[a-z0-5]{8,}"
+                                        title="Please enter at least 8 characters, using only lowercase letters or numbers"
+                                        required /></label>
+                                <!--Team names-->
+                                <label>Enter your team Gamertags:</label>
+                                <label for="gamertag-duo-1">One
+                                    <input id="gamertag-duo-1" name="username" type="text" required />
+                                </label>
+                                <label for="gamertag-duo-2">Two
+                                    <input id="gamertag-duo-2" name="username" type="text" required />
+                                </label>
+                                <!--Submit button-->
+                                <button type="submit" class="sign-up-button">Join GamerLeague</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="col-md-4">
+                        <form method="post" action="thank-you.html">
+                            <fieldset>
+                                <legend>Squad</legend>
+                                <!--Sign in details-->
+                                <label for="username-squad">Create a Username:
+                                    <input id="username-squad" name="username" type="text" required /></label>
+                                <label for="password-squad">Enter your Password:
+                                    <input id="password-squad" name="password-squad" type="password" pattern="[a-z0-5]{8,}"
+                                        title="Please enter at least 8 characters, using only lowercase letters or numbers"
+                                        required /></label>
+                                <!--Team names-->
+                                <label>Enter your team Gamertags:</label>
+                                <label for="gamertag-squad-1">Two
+                                    <input id="gamertag-squad-1" name="username" type="text" required />
+                                </label>
+                                <label for="gamertag-squad-2">Two
+                                    <input id="gamertag-squad-2" name="username" type="text" required />
+                                </label>
+                                <label for="gamertag-squad-3">Two
+                                    <input id="gamertag-squad-3" name="username" type="text" required />
+                                </label>
+                                <label for="gamertag-squad-4">Two
+                                    <input id="gamertag-squad-4" name="username" type="text" required />
+                                </label>
+                                <!--Submit button-->
+                                <button type="submit" class="sign-up-button">Join GamerLeague</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    </section>
-    <section id="games" class="bg-color">
-        <div class="structure bg-color-opaque">
-            <h1>hello</h1>
-            <p> hello</p>
-            <p> hello</p>
-            <p> hello</p>
-            <p> hello</p>
-        </div>
-    </section>
-    </section>
+
+
     <footer>
 
     </footer>
