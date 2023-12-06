@@ -268,7 +268,7 @@ legend {
 
 /*--------------------------------------------Sign up section*/
 #sign-up {
-    height: 50vh;
+    height: 60vh;
 }
 
 .signup-form {
@@ -288,6 +288,7 @@ legend {
 .signup-solo-label {
     display: block;
     text-align: center;
+    
 }
 
 .signup-solo-input {
@@ -303,7 +304,33 @@ legend {
     top: 4vh;
 }
 
+/*--------------------------------------------Sign up section duo*/
 
+.signup-form-duo {
+    border: 1px groove white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .6);
+    height: 37vh;
+}
+
+.signup-duo-label {
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.signup-duo-input {
+    display: block;
+    position: relative;
+    left: 6vw;
+}
+
+.signup-duo-button {
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 11vw;
+    top: 4vh;
+}
 /*--------------------------------------------Footer */
 footer {
     height: 13vh;
@@ -327,9 +354,7 @@ footer a {
 }
 
 /*--------------------------------------------Media queries*/
-
-/*--------------------------------------------small screens (phones 600px and lower)*/
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .background-image {
         height: 67vh;
         width: 100%;
@@ -452,7 +477,7 @@ footer a {
 }
 
  /*--------------------------------------------medium screens (phones 768px and higher)*/
-@media only screen and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 899px){
     .background-image {
         height: 67vh;
         width: 100%;
@@ -505,7 +530,6 @@ footer a {
         height: 50vh;
         padding-top: 3.5vh;
         text-align: center;
-
     }
 
     .join-gamerleague-form {
@@ -572,4 +596,41 @@ footer a {
     padding-bottom: 16px;
 }
 
+}
+
+ /*--------------------------------------------desktop screens*/
+@media (min-width: 2560px) and (max-width: 3840px) {
+    
+    #join-gamerleague {
+        height: 50vh;
+        padding-top: 3.8vh;
+        text-align: center;
+    }
+
+    .join-gamerleague-form {
+        border: 1px groove white;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .6);
+        margin: auto;
+        width: 90vw;
+        height: 42vh
+    }
+
+    .join-form-input {
+        float: right;
+        position: relative;
+        right: 1vw;
+        width: 19vh;
+    }
+
+    .join-form-label {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: left;
+        padding-left: 5vw;
+    }
+
+    .sign-up-button:hover {
+        color: red;
+    }
 }
