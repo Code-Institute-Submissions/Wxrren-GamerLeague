@@ -278,7 +278,7 @@ legend {
 }
 
 .signup-form-solo {
-    height: 30vh;
+    height: 33vh;
 }
 
 .signup-legend {
@@ -288,7 +288,7 @@ legend {
 .signup-solo-label {
     display: block;
     text-align: center;
-    
+    margin: 0.5rem 0;
 }
 
 .signup-solo-input {
@@ -313,7 +313,7 @@ legend {
     height: 37vh;
 }
 
-.signup-duo-label {
+.signup-label {
     display: block;
     text-align: center;
     margin: 0.5rem 0;
@@ -323,6 +323,45 @@ legend {
     display: block;
     position: relative;
     left: 6vw;
+}
+
+.signup-duo-button {
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 11vw;
+    top: 4vh;
+}
+
+/*--------------------------------------------Sign up section Squad*/
+.signup-form-squad {
+    border: 1px groove white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .6);
+    height: 44vh;
+}
+
+.signup-squad-label {
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+.signup-squad-input {
+    display: block;
+    position: relative;
+    left: 6vw;
+}
+
+.gamertag-team-label {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.gamertag-team-input {
+    margin-right: 20px;
+    padding-left: px;
 }
 
 .signup-duo-button {
