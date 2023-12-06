@@ -52,6 +52,7 @@
             <form method="post" action="thank-you.html">
                 <fieldset class="join-gamerleague-form">
                     <legend>Join GamerLeague</legend>
+                    <!--Text input-->
                     <label for="full-name">Enter Your Full Name:
                         <input class="join-form-input" id="full-name" name="full-name" type="text" required /></label>
                     <label for="username">Create a Username:
@@ -63,6 +64,7 @@
                             pattern="[a-z0-5]{8,}"
                             title="Please enter at least 8 characters, using only lowercase letters or numbers"
                             required /></label>
+                    <!--Select input-->
                     <label for="age">Select your age:
                         <select class="join-form-input" id="age" name="age" required>
                             <option value="">(select one)</option>
@@ -73,18 +75,19 @@
                         </select>
                     </label>
                     <label>Select your platform:</label>
+                    <!--radio input-->
                     <label for="xbox">
-                        <input class="join-form-input" id="xbox" type="radio" name="platform" required /> Xbox
+                        <input id="xbox" type="radio" name="platform" required /> Xbox
                     </label>
                     <label for="playstation">
-                        <input class="join-form-input" id="playstation" type="radio" name="platform" required />
+                        <input id="playstation" type="radio" name="platform" required />
                         Playstation
                     </label>
                     <label for="steam">
-                        <input class="join-form-input" id="steam" type="radio" name="platform" required /> Steam
+                        <input id="steam" type="radio" name="platform" required /> Steam
                     </label>
                     <label for="blizzard">
-                        <input class="join-form-input" id="blizzard" type="radio" name="platform" required /> Battle.net
+                        <input id="blizzard" type="radio" name="platform" required /> Battle.net
                     </label>
                     <button type="submit" class="sign-up-button">Join GamerLeague</button>
                 </fieldset>
