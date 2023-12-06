@@ -50,20 +50,21 @@
     <section id="join-gamerleague" class="bg-color">
         <div class="structure bg-color-opaque">
             <form method="post" action="thank-you.html">
-                <fieldset>
+                <fieldset class="join-gamerleague-form">
                     <legend>Join GamerLeague</legend>
                     <label for="full-name">Enter Your Full Name:
-                        <input id="full-name" name="full-name" type="text" required /></label>
+                        <input class="join-form-input" id="full-name" name="full-name" type="text" required /></label>
                     <label for="username">Create a Username:
-                        <input id="username" name="username" type="text" required /></label>
+                        <input class="join-form-input" id="username" name="username" type="text" required /></label>
                     <label for="email">Enter Your Email:
-                        <input id="email" name="email" type="email" required /></label>
+                        <input class="join-form-input" id="email" name="email" type="email" required /></label>
                     <label for="new-password">Create a Password:
-                        <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}"
+                        <input class="join-form-input" id="new-password" name="new-password" type="password"
+                            pattern="[a-z0-5]{8,}"
                             title="Please enter at least 8 characters, using only lowercase letters or numbers"
                             required /></label>
                     <label for="age">Select your age:
-                        <select id="age" name="age" required>
+                        <select class="join-form-input" id="age" name="age" required>
                             <option value="">(select one)</option>
                             <option value="1">16 - 21</option>
                             <option value="2">22 - 29</option>
@@ -73,16 +74,17 @@
                     </label>
                     <label>Select your platform:</label>
                     <label for="xbox">
-                        <input id="xbox" type="radio" name="platform" required /> Xbox
+                        <input class="join-form-input" id="xbox" type="radio" name="platform" required /> Xbox
                     </label>
                     <label for="playstation">
-                        <input id="playstation" type="radio" name="platform" required /> Playstation
+                        <input class="join-form-input" id="playstation" type="radio" name="platform" required />
+                        Playstation
                     </label>
                     <label for="steam">
-                        <input id="steam" type="radio" name="platform" required /> Steam
+                        <input class="join-form-input" id="steam" type="radio" name="platform" required /> Steam
                     </label>
                     <label for="blizzard">
-                        <input id="blizzard" type="radio" name="platform" required /> Battle.net
+                        <input class="join-form-input" id="blizzard" type="radio" name="platform" required /> Battle.net
                     </label>
                     <button type="submit" class="sign-up-button">Join GamerLeague</button>
                 </fieldset>
@@ -187,11 +189,11 @@
         <h6>Contact us <a class="contact-us" href="contact-us.html">here</a></h6>
         <h6>Social</h6>
         <ul>
-           <!--The below code was found was used in the Resume Project section.
+            <!--The below code was found was used in the Resume Project section.
             This includes usage of bootstrap 4 to line up the social links. 
             Changes i've made is increasing the padding to spread them out.-->
             <li class="list-inline-item">
-                <a class="social"  target="_blank" href="https://www.facebook.com">
+                <a class="social" target="_blank" href="https://www.facebook.com">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                     <span class="sr-only">Facebook</span>
                 </a>
@@ -203,7 +205,7 @@
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="social"  target="_blank" href="https://www.instagram.com">
+                <a class="social" target="_blank" href="https://www.instagram.com">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>

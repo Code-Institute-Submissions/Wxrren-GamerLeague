@@ -1,6 +1,6 @@
 /*--------------------------------------------Colors*/
 .bg-color-nav {
-    background-color: #01012c
+    background-color: #01012c;
 }
 
 .bg-color {
@@ -12,7 +12,9 @@
     height: 100%;
 }
 
-/*--------------------------------------------Colors */
+footer {
+    background-color: #01012c;
+}
 
 /* ----------------------------------------Special paddings/margins/text */
 .features {
@@ -26,7 +28,8 @@ h1 {
     padding-top: 8px;
 }
 
-.tagline,.tagline2 {
+.tagline,
+.tagline2 {
     text-transform: uppercase;
     font-weight: 800;
     font-family: 'Nova Square', sans-serif;
@@ -40,6 +43,14 @@ h1 {
     font-weight: 800;
     font-family: sans-serif;
     color: white;
+}
+
+legend {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Nova Square', sans-serif;
+    padding-top: 8px;
+    color: red;
 }
 
 /*--------------------------------------------Header/navbar*/
@@ -113,6 +124,25 @@ h1 {
     color: red;
 }
 
+.contact-us:hover {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.warren:hover {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.social:hover {
+    font-size: 1.3rem;
+    color: red;
+}
+
+.sign-up-button:hover {
+    font-size: 1.3rem;
+    color: red;
+}
 
 /*--------------------------------------------Call to action/Section 1 */
 #cta {
@@ -132,6 +162,7 @@ h1 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /*--------------------------------------------Zoom effect - idea from love running section*/
 .outer-image {
     height: 70vh;
@@ -139,13 +170,15 @@ h1 {
 }
 
 @keyframes image-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
+
 /*--------------------------------------------End of Zoom effect*/
 
 .structure {
@@ -192,20 +225,66 @@ h1 {
 }
 
 
-/*--------------------------------------------Sign in page - Join */
+/*--------------------------------------------Sign in page*/
+
 #join-gamerleague {
     height: 70vh;
-    padding-top: 3.5vh;
-
+    padding-top: 3.4vh;
+    text-align: center;
+    
 }
 
-fieldset {
-    border-color: white;
+.join-gamerleague-form {
+    border: 1px groove white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .6);
+    margin: auto;
+    width: 50vw;
+    height: 45vh;
+}
+
+.join-form-input{
+    float: right;
+    position: relative;
+    right: 15vw;
+   
 }
 
 label {
-  display: block;
-  margin: 2rem;
+    display: block;
+    margin: 0.5rem 0;
+    text-align: left;
+    padding-left: 15vw;
+}
+
+.sign-up-button {
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+    background-color: #01012c;
+    border: 1px solid white;
+    border-radius: 24px;
+}
+
+/*--------------------------------------------Footer */
+footer {
+    height: 13vh;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-inline-item {
+    padding-right: 25px;
+}
+
+.contact-us,
+.warren {
+    color: red;
 }
 
 /*--------------------------------------------Media queries*/
@@ -228,7 +307,7 @@ label {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    
+
     .tagline2 {
         text-align: center;
         position: absolute;
@@ -242,18 +321,53 @@ label {
         width: 100%;
         overflow: hidden;
     }
-    
+
     @keyframes image-zoom {
-        from{
+        from {
             transform: scale(1);
         }
-        to{
+
+        to {
             transform: scale(1.1);
         }
     }
 
     .join:hover {
         font-size: 1rem;
+        color: red;
+    }
+
+    #join-gamerleague {
+        height: 70vh;
+        padding-top: 3.4vh;
+        text-align: center;
+        
+    }
+    
+    .join-gamerleague-form {
+        border: 1px groove white;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .6);
+        margin: auto;
+        width: 90vw;
+      
+    }
+    
+    .join-form-input{
+        float: right;
+        position: relative;
+        right: 1vw;
+       
+    }
+    
+    label {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: left;
+        padding-left: 5vw;
+    }
+
+    .sign-up-button:hover {
         color: red;
     }
 }
