@@ -53,19 +53,19 @@
                 <fieldset class="join-gamerleague-form">
                     <legend>Join GamerLeague</legend>
                     <!--Text input-->
-                    <label for="full-name">Enter Your Full Name:
+                    <label class="join-form-label" for="full-name">Enter Your Full Name:
                         <input class="join-form-input" id="full-name" name="full-name" type="text" required /></label>
-                    <label for="username">Create a Username:
+                    <label class="join-form-label" for="username">Create a Username:
                         <input class="join-form-input" id="username" name="username" type="text" required /></label>
-                    <label for="email">Enter Your Email:
+                    <label class="join-form-label" for="email">Enter Your Email:
                         <input class="join-form-input" id="email" name="email" type="email" required /></label>
-                    <label for="new-password">Create a Password:
+                    <label class="join-form-label" for="new-password">Create a Password:
                         <input class="join-form-input" id="new-password" name="new-password" type="password"
                             pattern="[a-z0-5]{8,}"
                             title="Please enter at least 8 characters, using only lowercase letters or numbers"
                             required /></label>
                     <!--Select input-->
-                    <label for="age">Select your age:
+                    <label class="join-form-label" for="age">Select your age:
                         <select class="join-form-input" id="age" name="age" required>
                             <option value="">(select one)</option>
                             <option value="1">16 - 21</option>
@@ -74,19 +74,19 @@
                             <option value="4">40+</option>
                         </select>
                     </label>
-                    <label>Select your platform:</label>
+                    <label class="join-form-label">Select your platform:</label>
                     <!--radio input-->
-                    <label for="xbox">
+                    <label class="join-form-label" for="xbox">
                         <input id="xbox" type="radio" name="platform" required /> Xbox
                     </label>
-                    <label for="playstation">
+                    <label class="join-form-label" for="playstation">
                         <input id="playstation" type="radio" name="platform" required />
                         Playstation
                     </label>
-                    <label for="steam">
+                    <label class="join-form-label" for="steam">
                         <input id="steam" type="radio" name="platform" required /> Steam
                     </label>
-                    <label for="blizzard">
+                    <label class="join-form-label" for="blizzard">
                         <input id="blizzard" type="radio" name="platform" required /> Battle.net
                     </label>
                     <button type="submit" class="sign-up-button">Join GamerLeague</button>
@@ -104,22 +104,25 @@
                     <!--Solo sign up-->
                     <div class="col-md-4">
                         <form method="post" action="thank-you.html">
-                            <fieldset>
-                                <legend>Solo</legend>
+                            <fieldset class="signup-form signup-form-solo">
+                                <legend class="signup-legend">Solo</legend>
                                 <!--Sign in details-->
-                                <label for="username-solo">Enter your Username:
-                                    <input id="username-solo" name="username" type="text" required /></label>
-                                <label for="password-solo">Enter your Password:
-                                    <input id="password-solo" name="password-solo" type="password"
-                                        pattern="[a-z0-5]{8,}"
+                                <label class="signup-solo-label" for="username-solo">Enter your Username:
+                                    <input class="signup-solo-input" id="username-solo" name="username" type="text"
+                                        required /></label>
+                                <label class="signup-solo-label" for="password-solo">Enter your Password:
+                                    <input class="signup-solo-input" id="password-solo" name="password-solo"
+                                        type="password" pattern="[a-z0-5]{8,}"
                                         title="Please enter at least 8 characters, using only lowercase letters or numbers"
                                         required /></label>
                                 <!--Team names-->
-                                <label for="gamertag-solo">Enter your Gamertag:
-                                    <input id="gamertag-solo" name="username" type="text" required />
+                                <label class="signup-solo-label" for="gamertag-solo">Enter your Gamertag:
+                                    <input class="signup-solo-input" id="gamertag-solo" name="username" type="text"
+                                        required />
                                 </label>
                                 <!--Submit button-->
-                                <button type="submit" class="sign-up-button">Join GamerLeague</button>
+                                <button type="submit" class="sign-up-button signup-solo-button">Join
+                                    GamerLeague</button>
                             </fieldset>
                         </form>
                     </div>
@@ -127,8 +130,8 @@
                     <!--Duo sign up-->
                     <div class="col-md-4">
                         <form method="post" action="thank-you.html">
-                            <fieldset>
-                                <legend>Duo</legend>
+                            <fieldset class="signup-form">
+                                <legend class="signup-legend">Duo</legend>
                                 <!--Sign in details-->
                                 <label for="username-duo">Create a Username:
                                     <input id="username-duo" name="username" type="text" required /></label>
@@ -153,8 +156,8 @@
                     <!--Squad sign up-->
                     <div class="col-md-4">
                         <form method="post" action="thank-you.html">
-                            <fieldset>
-                                <legend>Squad</legend>
+                            <fieldset class="signup-form">
+                                <legend class="signup-legend">Squad</legend>
                                 <!--Sign in details-->
                                 <label for="username-squad">Create a Username:
                                     <input id="username-squad" name="username" type="text" required /></label>
