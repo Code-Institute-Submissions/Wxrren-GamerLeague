@@ -254,7 +254,7 @@ legend {
 
 /*--------------------------------------------Sign up section*/
 #sign-up {
-    height: 60vh;
+    height: 45vh;
 }
 
 .signup-form {
@@ -263,6 +263,7 @@ legend {
     background-color: rgba(0, 0, 0, .6);
 }
 
+/*--------------------------------------------Form opaque background heights*/
 .solo {
     height: 25vh;
 }
@@ -274,6 +275,7 @@ legend {
 .squad {
     height: 35vh;
 }
+/*--------------------------------------------Form opaque background heights end*/
 
 .signup-legend {
     text-align: center;
@@ -377,8 +379,8 @@ footer a {
     }
 
     #join-gamerleague {
-        height: 50vh;
-        padding-top: 3.5vh;
+        height: 55vh;
+        padding-top: 3.1vh;
         text-align: center;
 
     }
@@ -388,10 +390,10 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         margin: auto;
-        width: 25vw;
-        height: 40vh;
+        width: 87vw;
+        height: 45vh;
     }
-
+    
     .button-style {
         font-weight: 800;
         font-family: sans-serif;
@@ -400,59 +402,61 @@ footer a {
         border: 1px solid white;
         border-radius: 24px;
     }
-
+    
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 60vh;
+        height: 45vh;
     }
-
+    
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
     }
-
+    
+    /*--------------------------------------------Form opaque background heights*/
     .solo {
         height: 25vh;
     }
-
+    
     .duo {
         height: 29vh;
     }
-
+    
     .squad {
         height: 35vh;
     }
-
+    /*--------------------------------------------Form opaque background heights end*/
+    
     .signup-legend {
         text-align: center;
     }
-
+    
     .signup-label {
         display: grid;
         grid-template-columns: 200px 200px;
         align-items: center;
         padding-left: 20px;
     }
-
+    
     .signup-input {
         margin-right: 20px;
         padding-left: px;
     }
-
+    
     .sign-up-button {
         transform: translate(-50%, -50%);
         position: relative;
         left: 11vw;
         top: 4vh;
+    
     }
-
-    .col-md-4 {
-        padding-bottom: 16px;
+    
+    .register {
+        position: relative;
+        top: 1vh;
     }
-
 }
-
 /*--------------------------------------------medium screens (phones 768px and higher)*/
 @media (min-width: 600px) and (max-width: 899px) {
     .background-image {
@@ -517,7 +521,7 @@ footer a {
         width: 25vw;
         height: 40vh;
     }
-
+    
     .button-style {
         font-weight: 800;
         font-family: sans-serif;
@@ -526,55 +530,59 @@ footer a {
         border: 1px solid white;
         border-radius: 24px;
     }
-
+    
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 60vh;
+        height: 45vh;
     }
-
+    
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
     }
-
+    
+    /*--------------------------------------------Form opaque background heights*/
     .solo {
         height: 25vh;
     }
-
+    
     .duo {
         height: 29vh;
     }
-
+    
     .squad {
         height: 35vh;
     }
-
+    /*--------------------------------------------Form opaque background heights end*/
+    
     .signup-legend {
         text-align: center;
     }
-
+    
     .signup-label {
         display: grid;
         grid-template-columns: 200px 200px;
         align-items: center;
         padding-left: 20px;
     }
-
+    
     .signup-input {
         margin-right: 20px;
         padding-left: px;
     }
-
+    
     .sign-up-button {
         transform: translate(-50%, -50%);
         position: relative;
         left: 11vw;
         top: 4vh;
+    
     }
-
-    .col-md-4 {
-        padding-bottom: 16px;
+    
+    .register {
+        position: relative;
+        top: 1vh;
     }
 
 }
@@ -583,7 +591,7 @@ footer a {
 @media (min-width: 2560px) and (max-width: 3840px) {
 
     #join-gamerleague {
-        height: 50vh;
+        height: 40vh;
         padding-top: 3.8vh;
         text-align: center;
     }
@@ -593,10 +601,10 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         margin: auto;
-        width: 25vw;
-        height: 40vh;
+        width: 18vw;
+        height: 30vh;
     }
-
+    
     .button-style {
         font-weight: 800;
         font-family: sans-serif;
@@ -605,50 +613,81 @@ footer a {
         border: 1px solid white;
         border-radius: 24px;
     }
-
+    
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 60vh;
+        height: 48.7vh;
     }
-
+    
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
     }
-
+    
+    /*--------------------------------------------Form opaque background heights*/
     .solo {
-        height: 25vh;
+        height: 20vh;
     }
-
+    
     .duo {
-        height: 29vh;
+        height: 22vh;
     }
-
+    
     .squad {
-        height: 35vh;
+        height: 27vh;
     }
-
+    /*--------------------------------------------Form opaque background heights end*/
+    
     .signup-legend {
         text-align: center;
     }
-
+    
     .signup-label {
         display: grid;
         grid-template-columns: 200px 200px;
         align-items: center;
         padding-left: 20px;
     }
-
+    
     .signup-input {
         margin-right: 20px;
         padding-left: px;
     }
-
+    
     .sign-up-button {
         transform: translate(-50%, -50%);
         position: relative;
-        left: 11vw;
+        left: 8vw;
         top: 4vh;
+    
     }
+    
+    .register {
+        position: relative;
+        top: 1vh;
+    }
+
+    /*--------------------------------------------Footer */
+footer {
+    height: 10vh;
+    color: white;
+    text-align: center;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-inline-item {
+    padding-right: 25px;
+}
+
+.contact-us,
+.warren {
+    color: red;
+}
+
 }
