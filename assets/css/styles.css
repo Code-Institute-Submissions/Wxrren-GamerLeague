@@ -16,6 +16,13 @@ footer {
     background-color: #01012c;
 }
 
+.join-gamerleague-form-style {
+    border: 1px groove white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+
 /* ----------------------------------------Special paddings/margins/text */
 .features {
     position: absolute;
@@ -119,7 +126,7 @@ legend {
     font-size: 1.3rem;
 }
 
-.join:hover {
+.button:hover {
     font-size: 1.3rem;
     color: red;
 }
@@ -132,16 +139,6 @@ legend {
 .warren:hover {
     font-size: 1.3rem;
     color: white;
-}
-
-.social:hover {
-    font-size: 1.3rem;
-    color: red;
-}
-
-.sign-up-button:hover {
-    font-size: 1.3rem;
-    color: red;
 }
 
 /*--------------------------------------------Call to action/Section 1 */
@@ -235,9 +232,6 @@ legend {
 }
 
 .join-gamerleague-form {
-    border: 1px groove white;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, .6);
     margin: auto;
     width: 25vw;
     height: 50vh;
@@ -300,12 +294,46 @@ legend {
     position: relative;
     left: 11vw;
     top: 4vh;
-
 }
 
 .register {
     position: relative;
     top: 1vh;
+}
+
+/*--------------------------------------------Contact Us*/
+
+#contact-us {
+    height: 90vh;
+    padding-top: 3.3vh;
+}
+
+.contact-us-form {
+    margin: auto;
+    width: 44vw;
+    height: 70vh;
+    text-align: center;
+}
+
+.contact-label {
+    display: grid;
+    grid-template-columns: 250px 500px;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+.contact-input {
+    margin-right: 20px;
+    padding-left: 1px;
+}
+
+.get-in-touch {
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    position: relative;
+    top: 5vh;
+    left: 4vw;
 }
 
 /*--------------------------------------------Footer */
@@ -375,7 +403,7 @@ footer a {
         }
     }
 
-    .join:hover {
+    .button:hover {
         font-size: 1rem;
         color: red;
     }
@@ -471,6 +499,40 @@ footer a {
         text-align: center;
 
     }
+
+    /*--------------------------------------------Contact Us*/
+
+    #contact-us {
+        height: 90vh;
+        padding-top: 3.3vh;
+    }
+
+    .contact-us-form {
+        margin: auto;
+        width: 95vw;
+        height: 80vh;
+        text-align: center;
+    }
+
+    .contact-label {
+        display: grid;
+        grid-template-columns: 120px 220px;
+        align-items: center;
+        padding-top: 9px;
+    }
+
+    .contact-input {
+        margin-right: 20px;
+        padding-left: 7px;
+    }
+
+    .get-in-touch {
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 5vh;
+        left: 18vw;
+    }
 }
 
 
@@ -519,7 +581,7 @@ footer a {
         }
     }
 
-    .join:hover {
+    .button:hover {
         font-size: 1rem;
         color: red;
     }
@@ -603,6 +665,40 @@ footer a {
         top: 1vh;
     }
 
+    /*--------------------------------------------Contact Us*/
+
+    #contact-us {
+        height: 86vh;
+        padding-top: 3.6vh;
+    }
+
+    .contact-us-form {
+        margin: auto;
+        width: 95vw;
+        height: 65vh;
+        text-align: center;
+    }
+
+    .contact-label {
+        display: grid;
+        grid-template-columns: 200px 500px;
+        align-items: center;
+        padding-top: 9px;
+    }
+
+    .contact-input {
+        margin-right: 20px;
+        padding-left: 7px;
+    }
+
+    .get-in-touch {
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 5vh;
+        left: 11vw;
+    }
+
 }
 
 
@@ -651,7 +747,7 @@ footer a {
         }
     }
 
-    .join:hover {
+    .button:hover {
         font-size: 1rem;
         color: red;
     }
@@ -784,7 +880,7 @@ footer a {
         }
     }
 
-    .join:hover {
+    .button:hover {
         font-size: 1rem;
         color: red;
     }
@@ -976,4 +1072,38 @@ footer a {
         color: red;
     }
 
+    /*--------------------------------------------Contact Us*/
+
+    #contact-us {
+        height: cover;
+        padding-top: 3.8vh;
+    }
+
+    .contact-us-form {
+        margin: auto;
+        width: 38vw;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .contact-label {
+        display: grid;
+        grid-template-columns: 300px 500px;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 9px;
+    }
+
+    .contact-input {
+        margin-right: 20px;
+        padding-left: 1px;
+    }
+
+    .get-in-touch {
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 5vh;
+        left: 3.6vw;
+    }
 }
