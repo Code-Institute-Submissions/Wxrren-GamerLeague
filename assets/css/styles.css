@@ -73,8 +73,8 @@ legend {
 .card-info {
     color: white;
     text-transform: uppercase;
-    font-family: 'Nova Square';
-    font-weight: 600;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 .card-title {
@@ -264,6 +264,22 @@ legend {
 
 .card-link {
     text-decoration: none;
+}
+
+p.card-text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.prize {
+    background-color: green;
+    border: 2px solid black;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    float: right;
+    padding-top: 3px;
+    font-size: 1.3rem;
 }
 
 /*--------------------------------------------Games/Section 3 */
