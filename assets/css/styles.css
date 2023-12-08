@@ -36,7 +36,8 @@ h1 {
 }
 
 .tagline,
-.tagline2 {
+.tagline2,
+.tournament-header {
     text-transform: uppercase;
     font-weight: 800;
     font-family: 'Nova Square', sans-serif;
@@ -58,6 +59,29 @@ legend {
     font-family: 'Nova Square', sans-serif;
     padding-top: 8px;
     color: red;
+}
+
+.instructions {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-family: 'Nova Square';
+    font-weight: 400;
+    color: red;
+}
+
+.card-info {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nova Square';
+    font-weight: 600;
+}
+
+.card-title {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Nova Square';
+    font-weight: 800;
 }
 
 /*--------------------------------------------Header/navbar*/
@@ -141,6 +165,11 @@ legend {
     color: white;
 }
 
+.card-link:hover {
+    font-size: 1.4rem;
+    border: 5px solid rgba(255, 0, 0, 0.781);
+}
+
 /*--------------------------------------------Call to action/Section 1 */
 #cta {
     height: 70vh;
@@ -212,8 +241,29 @@ legend {
 
 /*--------------------------------------------Upcoming Tournaments/Section 2 */
 #upcoming-tournaments {
-    height: 33.33vh;
+    height: 80vh;
     padding-top: 2vh;
+}
+
+.start-competing {
+    text-align: center;
+    position: absolute;
+    top: 143vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    height: 40px;
+    background-color: #01012c;
+    border: 1px solid white;
+}
+
+.card-image {
+    width: 291px;
+    height: 236px;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 /*--------------------------------------------Games/Section 3 */
@@ -831,6 +881,39 @@ footer a {
         top: 1vh;
     }
 
+    /*--------------------------------------------Contact Us*/
+
+    #contact-us {
+        height: 86vh;
+        padding-top: 3.7vh;
+    }
+
+    .contact-us-form {
+        margin: auto;
+        width: 95vw;
+        height: 55vh;
+        text-align: center;
+    }
+
+    .contact-label {
+        display: grid;
+        grid-template-columns: 200px 500px;
+        align-items: center;
+        padding-top: 9px;
+    }
+
+    .contact-input {
+        margin-right: 20px;
+        padding-left: 7px;
+    }
+
+    .get-in-touch {
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 5vh;
+        left: 11vw;
+    }
 }
 
 
@@ -962,6 +1045,40 @@ footer a {
     .register {
         position: relative;
         top: 1vh;
+    }
+
+    /*--------------------------------------------Contact Us*/
+
+    #contact-us {
+        height: 86vh;
+        padding-top: 3.9vh;
+    }
+
+    .contact-us-form {
+        margin: auto;
+        width: 95vw;
+        height: 55vh;
+        text-align: center;
+    }
+
+    .contact-label {
+        display: grid;
+        grid-template-columns: 300px 600px;
+        align-items: center;
+        padding-top: 9px;
+    }
+
+    .contact-input {
+        margin-right: 20px;
+        padding-left: 7px;
+    }
+
+    .get-in-touch {
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        position: relative;
+        top: 5vh;
+        left: 9vw;
     }
 
 }
