@@ -228,7 +228,7 @@ legend {
 /*--------------------------------------------Sign in page*/
 
 #join-gamerleague {
-    height: 50vh;
+    height: 60vh;
     padding-top: 3.3vh;
     text-align: center;
 
@@ -240,7 +240,7 @@ legend {
     background-color: rgba(0, 0, 0, .6);
     margin: auto;
     width: 25vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 .button-style {
@@ -254,7 +254,7 @@ legend {
 
 /*--------------------------------------------Sign up section*/
 #sign-up {
-    height: 45vh;
+    height: 50vh;
 }
 
 .signup-form {
@@ -265,15 +265,15 @@ legend {
 
 /*--------------------------------------------Form opaque background heights*/
 .solo {
-    height: 25vh;
+    height: 30vh;
 }
 
 .duo {
-    height: 29vh;
+    height: 34vh;
 }
 
 .squad {
-    height: 35vh;
+    height: 42vh;
 }
 
 /*--------------------------------------------Form opaque background heights end*/
@@ -287,11 +287,12 @@ legend {
     grid-template-columns: 200px 200px;
     align-items: center;
     padding-left: 20px;
+    padding-top: 9px;
 }
 
 .signup-input {
     margin-right: 20px;
-    padding-left: px;
+    padding-left: 1px;
 }
 
 .sign-up-button {
@@ -380,7 +381,7 @@ footer a {
     }
 
     #join-gamerleague {
-        height: 50vh;
+        height: 60vh;
         width: 100%;
         padding-top: 3.3vh;
         text-align: center;
@@ -392,7 +393,7 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         width: 94vw;
-        height: 45vh;
+        height: 55vh;
     }
 
     .button-style {
@@ -406,7 +407,7 @@ footer a {
 
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 110vh;
+        height: 130vh;
     }
 
     .signup-form {
@@ -417,15 +418,15 @@ footer a {
 
     /*--------------------------------------------Form opaque background heights*/
     .solo {
-        height: 28vh;
-    }
-
-    .duo {
         height: 31vh;
     }
 
+    .duo {
+        height: 36vh;
+    }
+
     .squad {
-        height: 38vh;
+        height: 45vh;
     }
 
     /*--------------------------------------------Form opaque background heights end*/
@@ -472,8 +473,274 @@ footer a {
     }
 }
 
-/*--------------------------------------------medium screens (phones 768px and higher)*/
-@media (min-width: 768px) and (max-width: 899px) {
+
+/*--------------------------------------------medium screens (tablets - 768px - 1024px)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .background-image {
+        height: 67vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #upcoming-tournaments {
+        height: 33.33vh;
+        padding-top: 0;
+    }
+
+    .tagline {
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tagline2 {
+        text-align: center;
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .outer-image {
+        height: 67vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @keyframes image-zoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1);
+        }
+    }
+
+    .join:hover {
+        font-size: 1rem;
+        color: red;
+    }
+
+    #join-gamerleague {
+        height: 65vh;
+        padding-top: 3.9vh;
+        text-align: center;
+    }
+
+    .join-gamerleague-form {
+        border: 1px groove white;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .6);
+        margin: auto;
+        width: 35vw;
+        height: 58vh;
+    }
+
+    .button-style {
+        font-weight: 800;
+        font-family: sans-serif;
+        color: white;
+        background-color: #01012c;
+        border: 1px solid white;
+        border-radius: 24px;
+    }
+
+    /*--------------------------------------------Sign up section*/
+    #sign-up {
+        height: 50vh;
+    }
+
+    .signup-form {
+        border: 1px groove white;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    /*--------------------------------------------Form opaque background heights*/
+    .solo {
+        height: 30vh;
+    }
+
+    .duo {
+        height: 34vh;
+    }
+
+    .squad {
+        height: 42vh;
+    }
+
+    /*--------------------------------------------Form opaque background heights end*/
+
+    .signup-legend {
+        text-align: center;
+    }
+
+    .signup-label {
+        display: grid;
+        grid-template-columns: 80px 125px;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .signup-input {
+        margin-right: 20px;
+        padding-left: px;
+    }
+
+    .sign-up-button {
+        transform: translate(-50%, -50%);
+        position: relative;
+        left: 13vw;
+        top: 4vh;
+
+    }
+
+    .register {
+        position: relative;
+        top: 1vh;
+    }
+
+}
+
+
+/*--------------------------------------------medium screens (tablets - 820px - 1180px)*/
+@media (min-width: 820px) and (max-width: 1180px) {
+    .background-image {
+        height: 67vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #upcoming-tournaments {
+        height: 33.33vh;
+        padding-top: 0;
+    }
+
+    .tagline {
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .tagline2 {
+        text-align: center;
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .outer-image {
+        height: 67vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @keyframes image-zoom {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.1);
+        }
+    }
+
+    .join:hover {
+        font-size: 1rem;
+        color: red;
+    }
+
+    #join-gamerleague {
+        height: 60vh;
+        padding-top: 3.9vh;
+        text-align: center;
+    }
+
+    .join-gamerleague-form {
+        border: 1px groove white;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .6);
+        margin: auto;
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .button-style {
+        font-weight: 800;
+        font-family: sans-serif;
+        color: white;
+        background-color: #01012c;
+        border: 1px solid white;
+        border-radius: 24px;
+    }
+
+    /*--------------------------------------------Sign up section*/
+    #sign-up {
+        height: 45vh;
+    }
+
+    .signup-form {
+        border: 1px groove white;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    /*--------------------------------------------Form opaque background heights*/
+    .solo {
+        height: 27vh;
+    }
+
+    .duo {
+        height: 30vh;
+    }
+
+    .squad {
+        height: 37vh;
+    }
+
+    /*--------------------------------------------Form opaque background heights end*/
+
+    .signup-legend {
+        text-align: center;
+    }
+
+    .signup-label {
+        display: grid;
+        grid-template-columns: 80px 125px;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .signup-input {
+        margin-right: 20px;
+        padding-left: px;
+    }
+
+    .sign-up-button {
+        transform: translate(-50%, -50%);
+        position: relative;
+        left: 13vw;
+        top: 4vh;
+
+    }
+
+    .register {
+        position: relative;
+        top: 1vh;
+    }
+
+}
+
+
+
+/*--------------------------------------------medium screens (tablets - 1024px - 1366px)*/
+@media (min-width: 1024px) and (max-width: 1366px) {
     .background-image {
         height: 67vh;
         width: 100%;
@@ -524,7 +791,7 @@ footer a {
 
     #join-gamerleague {
         height: 50vh;
-        padding-top: 3.5vh;
+        padding-top: 3.9vh;
         text-align: center;
     }
 
@@ -533,7 +800,7 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         margin: auto;
-        width: 25vw;
+        width: 33vw;
         height: 40vh;
     }
 
@@ -559,15 +826,15 @@ footer a {
 
     /*--------------------------------------------Form opaque background heights*/
     .solo {
-        height: 25vh;
+        height: 24vh;
     }
 
     .duo {
-        height: 29vh;
+        height: 27vh;
     }
 
     .squad {
-        height: 35vh;
+        height: 33vh;
     }
 
     /*--------------------------------------------Form opaque background heights end*/
@@ -578,7 +845,7 @@ footer a {
 
     .signup-label {
         display: grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: 130px 150px;
         align-items: center;
         padding-left: 20px;
     }
@@ -591,7 +858,7 @@ footer a {
     .sign-up-button {
         transform: translate(-50%, -50%);
         position: relative;
-        left: 11vw;
+        left: 13vw;
         top: 4vh;
 
     }
@@ -603,12 +870,14 @@ footer a {
 
 }
 
+
+
 /*--------------------------------------------desktop screens*/
 @media (min-width: 2560px) and (max-width: 3840px) {
 
     #join-gamerleague {
-        height: 40vh;
-        padding-top: 3.8vh;
+        height: 50vh;
+        padding-top: 3.9vh;
         text-align: center;
     }
 
@@ -618,7 +887,7 @@ footer a {
         background-color: rgba(0, 0, 0, .6);
         margin: auto;
         width: 18vw;
-        height: 30vh;
+        height: 37vh;
     }
 
     .button-style {
@@ -632,7 +901,7 @@ footer a {
 
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 48.7vh;
+        height: 48.9vh;
     }
 
     .signup-form {
@@ -643,15 +912,15 @@ footer a {
 
     /*--------------------------------------------Form opaque background heights*/
     .solo {
-        height: 20vh;
-    }
-
-    .duo {
         height: 22vh;
     }
 
+    .duo {
+        height: 25vh;
+    }
+
     .squad {
-        height: 27vh;
+        height: 31vh;
     }
 
     /*--------------------------------------------Form opaque background heights end*/
