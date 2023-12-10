@@ -258,7 +258,7 @@ legend {
 }
 
 .card-image {
-    width: 291px;
+    width: 310px;
     height: 236px;
 }
 
@@ -294,7 +294,6 @@ p.card-text {
     height: 60vh;
     padding-top: 3.3vh;
     text-align: center;
-
 }
 
 .join-gamerleague-form {
@@ -367,6 +366,47 @@ p.card-text {
     top: 1vh;
 }
 
+/*--------------------------------------------Tournaments page*/
+
+#mw3 {
+    height: 85vh;
+    padding-top: 3.3vh;
+    text-align: center;
+}
+
+#halo {
+    height: 60vh;
+    text-align: center;
+}
+
+#cs2 {
+    height: 60vh;
+    text-align: center;
+}
+
+.photo {
+    clear: both;
+    line-height: 0;
+   
+}
+
+.mw3-photo {
+    column-count: 3;
+    column-gap: 0;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.cod-champs-seattle,
+.cdl-florida{
+    height: 36.8vh;
+}
+
+.nysl  {
+    height: 37.5vh;
+}
 /*--------------------------------------------Contact Us*/
 
 #contact-us {
@@ -433,7 +473,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 33.33vh;
+        height: 150vh;
         padding-top: 0;
     }
 
@@ -472,6 +512,11 @@ footer a {
     .button:hover {
         font-size: 1rem;
         color: red;
+    }
+
+    .card-link:hover {
+        font-size: 1rem;
+        border: 5px solid rgba(255, 0, 0, 0.781);
     }
 
     #join-gamerleague {
@@ -598,6 +643,16 @@ footer a {
         position: relative;
         top: 5vh;
         left: 18vw;
+    }
+
+    /*--------------------------------------------photos*/
+
+    #mw3 {
+        height: 200vh;
+    }
+
+    .photo {
+        column-count: 1;
     }
 }
 
@@ -763,6 +818,16 @@ footer a {
         position: relative;
         top: 5vh;
         left: 11vw;
+    }
+
+     /*--------------------------------------------photos*/
+
+     #mw3 {
+        height: 245vh;
+    }
+
+    .photo {
+        column-count: 1;
     }
 
 }
@@ -1238,5 +1303,18 @@ footer a {
         position: relative;
         top: 5vh;
         left: 3.6vw;
+    }
+ 
+    /*--------------------------------------------Photos*/
+    #mw3 {
+        height: 80vh;;
+    }
+
+    .cdl-florida {
+        height: 34vh;;
+    }
+
+    .nysl {
+        height: 36.2vh;;
     }
 }
