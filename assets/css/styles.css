@@ -116,6 +116,20 @@ legend {
     font-size: 1.3rem;
 }
 
+.navbar-toggler-icon {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.nav-link {
+    background-color: #01012c;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 /*--------------------------------------------Hover.css*/
 .nav-link.sign-in:hover {
     background-color: rgba(255, 0, 0, 0.411);
