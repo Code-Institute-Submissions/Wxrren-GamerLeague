@@ -389,7 +389,7 @@ p.card-text {
 }
 
 #halo {
-    height: 60vh;
+    height: 85vh;
     text-align: center;
 }
 
@@ -401,10 +401,11 @@ p.card-text {
 .photo {
     clear: both;
     line-height: 0;
-   
+
 }
 
-.mw3-photo {
+.mw3-photo,
+.halo-photo {
     column-count: 3;
     column-gap: 0;
 }
@@ -414,13 +415,22 @@ p.card-text {
 }
 
 .cod-champs-seattle,
-.cdl-florida{
+.cdl-florida {
     height: 36.8vh;
 }
 
-.nysl  {
+.nysl {
     height: 37.5vh;
 }
+
+.optic-22 {
+    height: 44.3vh;
+}
+
+.optic-quad {
+    height: 38.5vh;
+}
+
 /*--------------------------------------------Contact Us*/
 
 #contact-us {
@@ -834,9 +844,9 @@ footer a {
         left: 11vw;
     }
 
-     /*--------------------------------------------photos*/
+    /*--------------------------------------------photos*/
 
-     #mw3 {
+    #mw3 {
         height: 245vh;
     }
 
@@ -1318,17 +1328,20 @@ footer a {
         top: 5vh;
         left: 3.6vw;
     }
- 
+
     /*--------------------------------------------Photos*/
     #mw3 {
-        height: 80vh;;
+        height: 80vh;
+        ;
     }
 
     .cdl-florida {
-        height: 34vh;;
+        height: 34vh;
+        ;
     }
 
     .nysl {
-        height: 36.2vh;;
+        height: 36.2vh;
+        ;
     }
 }
