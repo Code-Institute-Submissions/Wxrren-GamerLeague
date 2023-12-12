@@ -719,7 +719,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 33.33vh;
+        height: 100vh;
         padding-top: 0;
     }
 
@@ -911,7 +911,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 33.33vh;
+        height: 90vh;
         padding-top: 0;
     }
 
@@ -1099,7 +1099,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 33.33vh;
+        height: 80vh;
         padding-top: 0;
     }
 
@@ -1117,6 +1117,10 @@ footer a {
         top: 33%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .button {
+        font-size: 1rem;
     }
 
     .outer-image {
