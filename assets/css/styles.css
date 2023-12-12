@@ -394,7 +394,7 @@ p.card-text {
 }
 
 #cs2 {
-    height: 60vh;
+    height: 105vh;
     text-align: center;
 }
 
@@ -407,6 +407,11 @@ p.card-text {
 .mw3-photo,
 .halo-photo {
     column-count: 3;
+    column-gap: 0;
+}
+
+.cs2-photo {
+    column-count: 4;
     column-gap: 0;
 }
 
@@ -429,6 +434,18 @@ p.card-text {
 
 .optic-quad {
     height: 38.5vh;
+}
+
+.esl {
+    height: 33.3vh;
+}
+
+.katowice {
+    height: 23.5vh;
+}
+
+.s1mple {
+    height: 24.7vh;
 }
 
 /*--------------------------------------------Contact Us*/
@@ -675,6 +692,14 @@ footer a {
         height: 200vh;
     }
 
+    #halo {
+        height: 190vh;
+    }
+
+    #cs2 {
+        height: 330vh;
+    }
+
     .photo {
         column-count: 1;
     }
@@ -850,6 +875,22 @@ footer a {
         height: 245vh;
     }
 
+    #halo {
+        height: 255vh;
+    }
+
+    #cs2 {
+        height: 510vh;
+    }
+
+    .s1mple {
+        height: 35vh;
+    }
+
+    .katowice {
+        height: 38vh;
+    }
+
     .photo {
         column-count: 1;
     }
@@ -1019,6 +1060,28 @@ footer a {
         top: 5vh;
         left: 11vw;
     }
+
+    /*--------------------------------------------photos*/
+
+    #mw3 {
+        height: 235vh;
+    }
+
+    #halo {
+        height: 240vh;
+    }
+
+    #cs2 {
+        height: 470vh;
+    }
+
+    .s1mple {
+        height: 35vh;
+    }
+
+    .katowice {
+        height: 38vh;
+    }
 }
 
 
@@ -1186,6 +1249,28 @@ footer a {
         left: 9vw;
     }
 
+    /*--------------------------------------------photos*/
+
+    #mw3 {
+        height: 240vh;
+    }
+
+    #halo {
+        height: 250vh;
+    }
+
+    #cs2 {
+        height: 500vh;
+    }
+
+    .s1mple {
+        height: 35vh;
+    }
+
+    .katowice {
+        height: 38vh;
+    }
+
 }
 
 
@@ -1331,7 +1416,7 @@ footer a {
 
     /*--------------------------------------------Photos*/
     #mw3 {
-        height: 80vh;
+        height: 90vh;
         ;
     }
 
@@ -1343,5 +1428,29 @@ footer a {
     .nysl {
         height: 36.2vh;
         ;
+    }
+
+    #halo {
+        height: 90vh;
+    }
+
+    .optic-22 {
+        height: 42.7vh; 
+    }
+
+    .optic-quad {
+        height: 37.1vh;
+    }
+
+    #cs2 {
+        height: 105vh;
+    }
+
+    .iem-katowice {
+        height: 28.7vh;
+    }
+
+    .esl {
+        height: 32.8vh; 
     }
 }
