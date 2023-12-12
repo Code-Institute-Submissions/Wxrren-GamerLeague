@@ -514,7 +514,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 150vh;
+        height: 180vh;
         padding-top: 0;
     }
 
@@ -532,6 +532,10 @@ footer a {
         top: 33%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .button {
+        font-size: 0.8rem;
     }
 
     .outer-image {
