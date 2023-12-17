@@ -92,6 +92,11 @@ legend {
     padding-top: 20px;
 }
 
+.opaque-size-tournament {
+    height: 100%;
+    padding-top: 10px;
+}
+
 /*--------------------------------------------Header/navbar*/
 .container-fluid {
     position: fixed;
@@ -573,7 +578,7 @@ footer a {
     }
 
     #join-gamerleague {
-        height: 60vh;
+        height: 62vh;
         width: 100%;
         padding-top: 3.3vh;
         text-align: center;
@@ -584,7 +589,7 @@ footer a {
         border: 1px groove white;
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
-        width: 94vw;
+        width: 90vw;
         height: 55vh;
     }
 
