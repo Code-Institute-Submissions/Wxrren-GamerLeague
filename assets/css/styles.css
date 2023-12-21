@@ -958,7 +958,7 @@ footer a {
         border: 1px groove white;
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
-        width: 80vw;
+        width: 40vw;
         height: 55vh;
     }
 
@@ -982,10 +982,7 @@ footer a {
     }
 
     /*--------------------------------------------Sign up section*/
-    #sign-up {
-        height: 130vh;
-    }
-
+  
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
@@ -1013,9 +1010,9 @@ footer a {
 
     .signup-label {
         display: grid;
-        grid-template-columns: 170px 170px;
+        grid-template-columns: 150px 150px;
         align-items: center;
-        padding-left: 60px;
+        padding-left: 10px;
     }
 
     .signup-input {
@@ -1026,7 +1023,7 @@ footer a {
     .sign-up-button {
         transform: translate(-50%, -50%);
         position: relative;
-        left: 32vw;
+        left: 14vw;
         top: 4vh;
     }
 
