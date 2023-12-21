@@ -33,14 +33,16 @@
                 </a>
                 <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
                     <span class="visually-hidden">Toggle navigation</span>
-                    <img class="navbar-toggler-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAcElEQVR4nO2UQQ6AIAwEOfkn8X2K/hP8xhgSTLgW0Ji4c2/ZLM04J8QXASbgAE76SUDIOy0BdsazWQKkMjQ3lljv8ncTLQH8gABL2RUtQ+GBL1itRxiqJnqI+XHTEQrkAeQB5IGfgzyAPIA8IIR7iwuKJIjsXUBZHQAAAABJRU5ErkJggg==">
+                    <img class="navbar-toggler-icon"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAcElEQVR4nO2UQQ6AIAwEOfkn8X2K/hP8xhgSTLgW0Ji4c2/ZLM04J8QXASbgAE76SUDIOy0BdsazWQKkMjQ3lljv8ncTLQH8gABL2RUtQ+GBL1itRxiqJnqI+XHTEQrkAeQB5IGfgzyAPIA8IIR7iwuKJIjsXUBZHQAAAABJRU5ErkJggg==">
                 </button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav features">
                         <li class="nav-item"><a class="nav-link" href="index.html" aria-label="Home"><i
                                     class="fa-solid fa-house"></i></a></li>
                         <li class="nav-item"><a class="nav-link tournament" href="tournament.html">Tournaments</a></li>
-                        <li class="nav-item"><a class="nav-link sign-in active" href="sign-in.html">Sign up/Join</a></li>
+                        <li class="nav-item"><a class="nav-link sign-in active" href="sign-in.html">Sign up/Join</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -55,41 +57,55 @@
                 <fieldset class="join-gamerleague-form join-gamerleague-form-style">
                     <legend>Join GamerLeague</legend>
                     <!--Text input-->
-                    <label class="signup-label" for="full-name">Enter Your Full Name:
-                        <input class="signup-input" id="full-name" name="full-name" type="text" required /></label>
-                    <label class="signup-label" for="username">Create a Username:
-                        <input class="signup-input" id="username" name="username" type="text" required /></label>
-                    <label class="signup-label" for="email">Enter Your Email:
-                        <input class="signup-input" id="email" name="email" type="email" required /></label>
-                    <label class="signup-label" for="new-password">Create a Password:
+                    <div class="signup-label">
+                        <label for="full-name">Enter Your Full Name:</label>
+                        <input class="signup-input" id="full-name" name="full-name" type="text" required />
+                    </div>
+                    <div class="signup-label">
+                        <label for="username">Create a Username:</label>
+                        <input class="signup-input" id="username" name="username" type="text" required />
+                    </div>
+                    <div class="signup-label">
+                        <label for="email">Enter Your Email:</label>
+                        <input class="signup-input" id="email" name="email" type="email" required />
+                    </div>
+                    <div class="signup-label">
+                        <label for="new-password">Create a Password:</label>
                         <input class="signup-input" id="new-password" name="new-password" type="password"
                             pattern="[a-z0-9]{8,}"
                             title="Please enter at least 8 characters, using only lowercase letters or numbers"
-                            required /></label>
+                            required />
+                    </div>
                     <!--Select input-->
-                    <label class="signup-label" for="age">Select your age:
+                    <div class="signup-label">
+                        <label for="age">Select your age:</label>
                         <select class="signup-input" id="age" name="age" required>
                             <option value="">(select one)</option>
-                            <option value="1">16 - 21</option>
-                            <option value="2">22 - 29</option>
-                            <option value="3">30 - 39</option>
-                            <option value="4">40+</option>
+                            <option value="16 - 21">16 - 21</option>
+                            <option value="22 - 29">22 - 29</option>
+                            <option value="30 - 39">30 - 39</option>
+                            <option value="40+">40+</option>
                         </select>
-                    </label>
-                    <label class="signup-label">Select your platform:</label>
+                    </div>
+                    <h6 class="signup-label">Select your platform:</h6>
                     <!--radio input-->
-                    <label class="signup-label" for="xbox">Xbox
-                        <input class="signup-input" id="xbox" type="radio" name="platform" required />
-                    </label>
-                    <label class="signup-label" for="playstation"> Playstation
-                        <input class="signup-input" id="playstation" type="radio" name="platform" required />
-                    </label>
-                    <label class="signup-label" for="steam">Steam
-                        <input class="signup-input" id="steam" type="radio" name="platform" required />
-                    </label>
-                    <label class="signup-label" for="blizzard">Battle.net
+                    <div class="signup-label">
+                        <label for="xbox">Xbox </label>
+                        <input class="signup-input" id="xbox" type="radio" name="platform" value="Xbox" required />
+                    </div>
+                    <div class="signup-label">
+                        <label for="playstation">Playstation</label>
+                        <input class="signup-input" id="playstation" type="radio" name="platform" value="Playstation"
+                            required />
+                    </div>
+                    <div class="signup-label">
+                        <label for="steam">Steam</label>
+                        <input class="signup-input" id="steam" type="radio" name="platform" value="Steam" required />
+                    </div>
+                    <div class="signup-label">
+                        <label for="blizzard">Battle.net</label>
                         <input class="signup-input" id="blizzard" type="radio" name="platform" required />
-                    </label>
+                    </div>
                     <button type="submit" class="button-style register button">Join GamerLeague</button>
                 </fieldset>
             </form>
@@ -108,20 +124,25 @@
                             <fieldset class="signup-form solo">
                                 <legend class="signup-legend">Solo</legend>
                                 <!--Sign in details-->
-                                <label class="signup-label" for="username-solo">Enter your Username:
+                                <div class="signup-label">
+                                    <label for="username-solo">Enter your Username:</label>
                                     <input class="signup-input" id="username-solo" name="username" type="text"
-                                        required /></label>
-                                <label class="signup-label" for="password-solo">Enter your Password:
+                                        required />
+                                </div>
+                                <div class="signup-label">
+                                    <label for="password-solo">Enter your Password:</label>
                                     <input class="signup-input" id="password-solo" name="password" type="password"
                                         pattern="[a-z0-9]{8,}"
                                         title="Please enter at least 8 characters, using only lowercase letters or numbers"
-                                        required /></label>
+                                        required />
+                                </div>
                                 <!--Team names-->
                                 <h6 class="signup-legend">Enter your Gamertag: </h6>
-                                <label class="signup-label" for="gamertag-solo">One
+                                <div class="signup-label">
+                                    <label for="gamertag-solo">One</label>
                                     <input class="signup-input" id="gamertag-solo" name="gamertag" type="text"
                                         required />
-                                </label>
+                                </div>
                                 <!--Submit button-->
                                 <button type="submit" class="button-style sign-up-button button">Sign Up</button>
                             </fieldset>
@@ -134,24 +155,30 @@
                             <fieldset class="signup-form duo">
                                 <legend class="signup-legend">Duo</legend>
                                 <!--Sign in details-->
-                                <label class="signup-label" for="username-duo">Enter your Username:
+                                <div class="signup-label">
+                                    <label for="username-duo">Enter your Username:</label>
                                     <input class="signup-input" id="username-duo" name="username" type="text"
-                                        required /></label>
-                                <label class="signup-label" for="password-duo">Enter your Password:
+                                        required />
+                                </div>
+                                <div class="signup-label">
+                                    <label for="password-duo">Enter your Password:</label>
                                     <input class="signup-input" id="password-duo" name="password-duo" type="password"
                                         pattern="[a-z0-9]{8,}"
                                         title="Please enter at least 8 characters, using only lowercase letters or numbers"
-                                        required /></label>
+                                        required />
+                                </div>
                                 <!--Team names-->
                                 <h6 class="signup-legend">Enter your team Gamertags:</h6>
-                                <label class="signup-label" for="gamertag-duo-1">One
+                                <div class="signup-label">
+                                    <label for="gamertag-duo-1">One </label>
                                     <input class="signup-input" id="gamertag-duo-1" name="gamertag" type="text"
                                         required />
-                                </label>
-                                <label class="signup-label" for="gamertag-duo-2">Two
+                                </div>
+                                <div class="signup-label">
+                                    <label for="gamertag-duo-2">Two </label>
                                     <input class="signup-input" id="gamertag-duo-2" name="gamertag" type="text"
                                         required />
-                                </label>
+                                </div>
                                 <!--Submit button-->
                                 <button type="submit" class="button-style sign-up-button button">Sign Up</button>
                             </fieldset>
@@ -164,32 +191,40 @@
                             <fieldset class="signup-form squad">
                                 <legend class="signup-legend">Squad</legend>
                                 <!--Sign in details-->
-                                <label class="signup-label" for="username-squad">Enter your Username:
+                                <div class="signup-label">
+                                    <label for="username-squad">Enter your Username:</label>
                                     <input class="signup-input" id="username-squad" name="username" type="text"
-                                        required /></label>
-                                <label class="signup-label" for="password-squad">Enter your Password:
+                                        required />
+                                </div>
+                                <div class="signup-label">
+                                    <label for="password-squad">Enter your Password:</label>
                                     <input class="signup-input" id="password-squad" name="password-squad"
                                         type="password" pattern="[a-z0-9]{8,}"
                                         title="Please enter at least 8 characters, using only lowercase letters or numbers"
-                                        required /></label>
+                                        required />
+                                </div>
                                 <!--Team names-->
                                 <h6 class="signup-legend">Enter your team Gamertags:</h6>
-                                <label class="signup-label" for="gamertag-squad-1">One
+                                <div class="signup-label">
+                                    <label for="gamertag-squad-1">One</label>
                                     <input class="signup-input" id="gamertag-squad-1" name="gamertag" type="text"
                                         required />
-                                </label>
-                                <label class="signup-label" for="gamertag-squad-2">Two
+                                </div>
+                                <div class="signup-label">
+                                    <label for="gamertag-squad-2">Two</label>
                                     <input class="signup-input" id="gamertag-squad-2" name="gamertag" type="text"
                                         required />
-                                </label>
-                                <label class="signup-label" for="gamertag-squad-3">Three
+                                </div>
+                                <div class="signup-label">
+                                    <label for="gamertag-squad-3">Three</label>
                                     <input class="signup-input" id="gamertag-squad-3" name="gamertag" type="text"
                                         required />
-                                </label>
-                                <label class="signup-label" for="gamertag-squad-4">Four
+                                </div>
+                                <div class="signup-label">
+                                    <label for="gamertag-squad-4">Four</label>
                                     <input class="signup-input" id="gamertag-squad-4" name="gamertag" type="text"
                                         required />
-                                </label>
+                                </div>
                                 <!--Submit button-->
                                 <button type="submit" class="button-style sign-up-button button">Sign Up</button>
                             </fieldset>
