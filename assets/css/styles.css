@@ -97,6 +97,11 @@ legend {
     padding-top: 10px;
 }
 
+.opaque-size-contact {
+    height: 100%;
+    padding-top: 20px;
+}
+
 /*--------------------------------------------Header/navbar*/
 .container-fluid {
     position: fixed;
