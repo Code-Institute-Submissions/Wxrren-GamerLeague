@@ -1088,7 +1088,11 @@ footer a {
     }
 
     .photo {
-        column-count: 1;
+        column-count: 2;
 
+    }
+
+    .s1mple {
+        height: 40.5vh;
     }
 }
