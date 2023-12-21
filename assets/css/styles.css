@@ -952,7 +952,7 @@ footer a {
     }
 
     #join-gamerleague {
-        height: 62vh;
+        height: 65vh;
         width: 100%;
         padding-top: 3.3vh;
         text-align: center;
@@ -964,7 +964,7 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         width: 40vw;
-        height: 55vh;
+        height: 59vh;
     }
 
     .button-style {
@@ -1005,7 +1005,9 @@ footer a {
 
     .squad {
         height: 45vh;
+        
     }
+
 
     /*--------------------------------------------Form opaque background heights end*/
 
@@ -1015,7 +1017,7 @@ footer a {
 
     .signup-label {
         display: grid;
-        grid-template-columns: 150px 150px;
+        grid-template-columns: 120px 100px;
         align-items: center;
         padding-left: 10px;
     }
