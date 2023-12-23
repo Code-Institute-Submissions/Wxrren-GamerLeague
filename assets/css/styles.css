@@ -662,7 +662,7 @@ footer a {
 
     .contact-label {
         display: grid;
-        grid-template-columns: 100px 190px;
+        grid-template-columns: 100px 150px;
         align-items: center;
         padding-top: 9px;
     }
@@ -677,7 +677,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 18vw;
+        left: 13vw;
     }
 
     /*--------------------------------------------photos*/
@@ -886,7 +886,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 18vw;
+    
     }
 
     /*--------------------------------------------photos*/
@@ -1090,7 +1090,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 18vw;
+        left: 1vw;
     }
 
     /*--------------------------------------------photos*/
@@ -1298,7 +1298,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 18vw;
+        left: 3vw;
     }
 
     /*--------------------------------------------photos*/
@@ -1507,7 +1507,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 18vw;
+        left: 1vw;
     }
 
     /*--------------------------------------------photos*/
