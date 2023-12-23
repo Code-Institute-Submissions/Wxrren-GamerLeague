@@ -83,6 +83,13 @@ legend {
     font-weight: 800;
 }
 
+.card-title-2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nova Square';
+    font-weight: 800;
+}
+
 .opaque-size-home {
     height: 100%;
 }
@@ -314,10 +321,8 @@ p.card-text {
     font-size: 1.3rem;
 }
 
-/*--------------------------------------------Games/Section 3 */
-#games {
-    height: 33.33vh;
-}
+/*--------------------------------------------About us/Section 3 */
+
 
 
 /*--------------------------------------------Sign in page*/
