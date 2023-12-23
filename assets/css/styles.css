@@ -429,6 +429,7 @@ p.card-text {
 .halo-photo {
     height: 44.5vh;
 }
+
 /*--------------------------------------------Contact Us*/
 
 #contact-us {
@@ -654,14 +655,14 @@ footer a {
 
     .contact-us-form {
         margin: auto;
-        width: 95vw;
+        width: 85vw;
         height: 80vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 120px 220px;
+        grid-template-columns: 100px 190px;
         align-items: center;
         padding-top: 9px;
     }
@@ -863,14 +864,14 @@ footer a {
 
     .contact-us-form {
         margin: auto;
-        width: 95vw;
+        width: 85vw;
         height: 80vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 120px 220px;
+        grid-template-columns: 170px 220px;
         align-items: center;
         padding-top: 9px;
     }
@@ -892,7 +893,7 @@ footer a {
 
     #gallery {
         height: 100%;
- 
+
     }
 
     .photo {
@@ -988,14 +989,14 @@ footer a {
         width: 240px
     }
 
-   
+
 
     .navbar-nav {
         --bs-nav-link-padding-x: 20px;
     }
 
     /*--------------------------------------------Sign up section*/
-  
+
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
@@ -1013,7 +1014,7 @@ footer a {
 
     .squad {
         height: 45vh;
-        
+
     }
 
 
@@ -1074,7 +1075,7 @@ footer a {
 
     .contact-label {
         display: grid;
-        grid-template-columns: 120px 220px;
+        grid-template-columns: 200px 490px;
         align-items: center;
         padding-top: 9px;
     }
@@ -1096,7 +1097,7 @@ footer a {
 
     #gallery {
         height: 100%;
- 
+
     }
 
     .photo {
@@ -1196,14 +1197,14 @@ footer a {
         width: 240px
     }
 
-   
+
 
     .navbar-nav {
         --bs-nav-link-padding-x: 20px;
     }
 
     /*--------------------------------------------Sign up section*/
-  
+
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
@@ -1221,7 +1222,7 @@ footer a {
 
     .squad {
         height: 45vh;
-        
+
     }
 
 
@@ -1282,7 +1283,7 @@ footer a {
 
     .contact-label {
         display: grid;
-        grid-template-columns: 120px 220px;
+        grid-template-columns: 200px 700px;
         align-items: center;
         padding-top: 9px;
     }
@@ -1304,7 +1305,7 @@ footer a {
 
     #gallery {
         height: 100%;
- 
+
     }
 
     .photo {
@@ -1405,14 +1406,14 @@ footer a {
         width: 240px
     }
 
-   
+
 
     .navbar-nav {
         --bs-nav-link-padding-x: 20px;
     }
 
     /*--------------------------------------------Sign up section*/
-  
+
     .signup-form {
         border: 1px groove white;
         border-radius: 25px;
@@ -1430,7 +1431,7 @@ footer a {
 
     .squad {
         height: 45vh;
-        
+
     }
 
 
@@ -1491,7 +1492,7 @@ footer a {
 
     .contact-label {
         display: grid;
-        grid-template-columns: 120px 220px;
+        grid-template-columns: 200px 800px;
         align-items: center;
         padding-top: 9px;
     }
@@ -1513,7 +1514,7 @@ footer a {
 
     #gallery {
         height: 100%;
- 
+
     }
 
     .photo {
