@@ -525,6 +525,10 @@ footer a {
         overflow: hidden;
     }
 
+    h1 {
+        padding-top: 0px;
+    }
+
     @keyframes image-zoom {
         from {
             transform: scale(1);
@@ -722,6 +726,10 @@ footer a {
         height: 67vh;
         width: 100%;
         overflow: hidden;
+    }
+
+    h1 {
+        padding-top: 0px;
     }
 
     @keyframes image-zoom {
@@ -930,7 +938,7 @@ footer a {
         width: 100%;
         overflow: hidden;
     }
-
+    
     @keyframes image-zoom {
         from {
             transform: scale(1);
