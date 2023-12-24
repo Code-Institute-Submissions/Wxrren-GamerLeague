@@ -697,6 +697,12 @@ footer a {
     .photo {
         column-count: 1;
     }
+
+    /*--------------------------------------------About us/Section 3 */
+    .video {
+        width: 240px;
+        height: 150px;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -894,7 +900,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-    
+
     }
 
     /*--------------------------------------------photos*/
