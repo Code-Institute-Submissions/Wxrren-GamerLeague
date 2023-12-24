@@ -587,6 +587,15 @@ footer a {
         width: 240px
     }
 
+    .nav-link {
+        width: 40vw;
+    }
+
+    .navbar-nav {
+        --bs-nav-link-padding-x: 15px;
+    }
+
+
     /*--------------------------------------------Sign up section*/
     #sign-up {
         height: 130vh;
@@ -797,7 +806,7 @@ footer a {
     }
 
     .nav-link {
-        width: 20vw;
+        width: 30vw;
     }
 
     .navbar-nav {
