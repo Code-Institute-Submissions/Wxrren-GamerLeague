@@ -713,7 +713,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 172vh;
+        height: 155vh;
         padding-top: 0;
     }
 
@@ -914,6 +914,12 @@ footer a {
         column-count: 1;
 
     }
+
+    /*--------------------------------------------About us/Section 3 */
+    .video {
+        width: 360px;
+        height: 215px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -924,7 +930,7 @@ footer a {
     }
 
     #upcoming-tournaments {
-        height: 142vh;
+        height: 110vh;
         padding-top: 0;
     }
 
@@ -1009,6 +1015,7 @@ footer a {
         --bs-nav-link-padding-x: 20px;
     }
 
+    
     /*--------------------------------------------Sign up section*/
 
     .signup-form {
@@ -1121,6 +1128,12 @@ footer a {
 
     .s1mple {
         height: 40.5vh;
+    }
+
+    /*--------------------------------------------About us/Section 3 */
+    .video {
+        width: 280px;
+        height: 150px;
     }
 }
 
