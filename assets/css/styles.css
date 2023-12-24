@@ -1578,6 +1578,11 @@ footer a {
 /*--------------------------------------------desktop screens*/
 @media (min-width: 2560px) and (max-width: 3840px) {
 
+    #upcoming-tournaments {
+        height: 100%;
+        padding-top: 0;
+    }
+
     #join-gamerleague {
         height: 50vh;
         padding-top: 3.9vh;
