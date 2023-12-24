@@ -1015,7 +1015,7 @@ footer a {
         --bs-nav-link-padding-x: 20px;
     }
 
-    
+
     /*--------------------------------------------Sign up section*/
 
     .signup-form {
@@ -1557,6 +1557,12 @@ footer a {
 
     .s1mple {
         height: 40.5vh;
+    }
+
+    /*--------------------------------------------About us/Section 3 */
+    .video {
+        width: 320px;
+        height: 215px;
     }
 }
 
