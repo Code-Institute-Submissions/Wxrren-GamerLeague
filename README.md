@@ -40,6 +40,23 @@ To make the user experience easy - I wanted the site to have:
 * A card displaying the tournaments that could be clicked on to redirect you to a the same contact page as the join button - the sign up section is on the lower part of the page. The idea is to have one single contact page that makes it a quicker and easier experience for the user.
 
 ## User Stories
+To determine which approach to take with site features I detirmined the goals of different users from first time through to frequent users.
 
+### User
 
+* First time User Goals
+    * As a user I want to be able understand the main purpose of the site immediately and learn more about the GamerLeague.
+    * As a user I want to be able to see what upcoming tournaments are available.
+    * As a user I want to be able to easily navigate the site.
+    * As a user I want to be able to find how to join the site and do so easily.
+
+* Returning User Goals
+    * As a user I want to be able to see hot upcoming tournaments and sign up quickly.
+    * As a user I want to be able to easily contact the company should issues arise.
+    * As a user I want to be able to view the gallery of recent or previous tournaments for nostalgia or to see what I missed if not attending.
+    
+* Frequent User Goals
+    * As a user I want to be able to see if there is any new upcoming tournaments and sign up quickly.
+    * As a user I want to be able to review the gallery and see new photos of recent tournaments
+    * As a user I want to see the latest information coming in from pro's or breakdown the latest tournaments with an experience cast.
 
