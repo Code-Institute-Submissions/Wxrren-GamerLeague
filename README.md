@@ -92,5 +92,28 @@ During the creation of the gallery page I had intended to have a page with 3 sec
 
 The changes for the join page were more minimal. After discussing with my mentor Mitko we agreed on having one single contact page split into sections. The top section you can join the league and the bottom you can sign up for tournaments. As I had made the dummy tournaments a "solo", "Duo" and "Squad" it would mean that the sign up form for a solo or duo would only require one or two gamertags. I thought this would look out of place so I decided to make 3 seperate fieldsets in the signup section for each different tournament type. This also then allowed me to make the gamertags a required field that all had to be filled in order to sign up.  
 
+## Design
+
+### Color
+
+The theme I wanted for the website was Red VS Blue. The colours would help to represent competition and they're also used as a reference to an old video series called Red Vs Blue by Machinima.
+
+I chose a Red and blue image that I wanted to be used at the top of the home page and then set a linear gradient of blue to red for the background of the page to match the colours in the picture. I then felt this was too bright and could impact visibility on the site so I added a slight black opaque overlay to make the blue and reds appear a little darker and the content on the website look more visible. 
+
+For the cards on the home page - I chose to keep these without the overlay to stand out from the background and draw the user's eye to them.
+
+* Main colours used on the website:
+    ![An image showing 3 colours. Navy, Blue and Red with hex and RGB codes](features/development-images/colours-used.png "Main Colours")
+    * #01012c - Used for the Nav bar as it a darker and bolder colour to separate it from the main image on the homepage and the blue and red colours below. This is also used on the main background colour as part of the linear gradient. The black overlay helps darken this a bit more and separate it from the header.
+    * #090979 - this is used as the middle part of the gradient to get a transition from dark blue to light blue to red. It helps lighten up the middle portion.
+    * #FF0000 - The end part of the gradient. Once mixed in a gradient witht he blue this helps give us the red vs blue theme and make it look like the colours are clashing in the middle 
+
+* Overlay colour: 
+
+![An image showing a black colourwith hex and RGB codes](features/development-images/overlay-colours-used.png "Overlay colours") 
+
+* #000000 - Used as a transparent overlay with RGBA code rgba(0, 0, 0, .6). This helped make the blue and reds appear a little darker so that the content can stand out more.
+
+
 
 
