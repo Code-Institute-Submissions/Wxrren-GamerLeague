@@ -4,9 +4,9 @@ GamerLeague are a group of competitive gamers ranging from amateur to profession
 
 Anyone is able to join the league via the form application on the join us page. You can also sign up for any Solo, Duo and Squad events. In the tournament section you will find a gallery of recent tournaments held. You can also contact us if you have any issues via the contact us section in the footer. Here you fill our your details and submit any issues you have. You can also find links to our socials.
 
-![images of website shown on various devices to show it's responsiveness][website]
+Inline-style: 
+![An images showing the website being responsive across multiple devices](assets/images/am-i-responsive-image.png "Resonsive site")
 
-[website]: https://github.com/Wxrren/1st-milestone-project-GamerLeague/commit/cff48860f40fd26fc0eeb776c3c1a7c29f497f37 "Responsive devices"
 
 [You can visit the GamerLeague website here](https://wxrren.github.io/1st-milestone-project-GamerLeague/)
 ------
