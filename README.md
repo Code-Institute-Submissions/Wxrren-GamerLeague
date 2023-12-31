@@ -14,8 +14,9 @@ Anyone is able to join the league via the form application on the join us page. 
 ## Table of Contents
 
 ### [User Experience (UX)](#user-experience-ux)
-* #### [WireFrames](https://github.com/Wxrren/1st-milestone-project-GamerLeague/tree/main/ux/wireframes)
 * #### [User Stories](#user-stories)
+* #### [WireFrames](#wire-frames) (View the repository [here](https://github.com/Wxrren/1st-milestone-project-GamerLeague/tree/main/ux/wireframes))
+* #### [Design](#design-1)
 
 ### Features
 * #### Existing Features
@@ -63,6 +64,33 @@ To determine which approach to take with site features I detirmined the goals of
     * As a user I want to be able to see if there is any new upcoming tournaments and sign up quickly.
     * As a user I want to be able to review the gallery and see new photos of recent tournaments
     * As a user I want to see the latest information coming in from pro's or breakdown the latest tournaments with an experience cast.
+
+    ## Wire Frames
+
+    When designing this website I intended the site to have a very minimal design that was easy to spot what was relevant information and how to navigate to where they wanted to be. 
+
+    I have made some changes during the creation of the website. These changes were to the [Home Page](#home-page---wireframe-for-desktop-tablet-and-mobile), [Gallery Page](#gallery-page---wireframe-for-desktop-tablet-and-mobile) and the [Join Page](#join-page---wireframe-for-desktop-tablet-and-mobile)
+
+### Home Page - Wireframe for Desktop, Tablet and Mobile.
+![An images showing the website wireframes across different devices](ux/wireframes/home-page-wireframe.png "Home Page Wireframe")
+
+* Home page changes
+
+For the home page I was going to initially have 3 cards showing a different game - once clicked these would take you to a page with more dummy tournaments similar to the "upcoming tournaments" section - After discussing this with my mentor we agreed it was a bit too much and to keep it simple. Instead I opted fo the multiple games to be shown in the gallery page and use the games section instead to give more identity and content to the site. I chose to do an about us section with a brief description of the team behind the site and then embedded 2 videos to give the website a professional identity. One was a tutorial from a professional coach in ESports and another was a breakdown of a recent Esports tournament on a talkshow held by retired Esports pros. I felt this would help give the site an identity of a professional gaming league.
+
+### Gallery Page - Wireframe for Desktop, Tablet and Mobile.
+![An images showing the website wireframes across different devices](ux/wireframes/gallery-page-wireframes.png "Gallery Page Wireframe")
+
+* Gallery page changes
+
+During the creation of the gallery page I had intended to have a page with 3 sections showcasing tournaments for different games. When putting this together I decided I didn't like the idea of seperating the games as I wanted the gallery to be a page showcasing the GamerLeagues tournaments and work. I instead opted to make it one single pages with the images split into collumns. 3 for Desktop, 2 for Tablet and 1 for Mobile. I then showcased different Esports tournament images - the intention was to showcase the GamerLeague as a professional tournament league and the gallery can be their body of work.
+
+### Join Page - Wireframe for Desktop, Tablet and Mobile.
+![An images showing the website wireframes across different devices](ux/wireframes/join-page-wireframe.png "Join Page Wireframe")
+
+* Join Page changes
+
+The changes for the join page were more minimal. After discussing with my mentor Mitko we agreed on having one single contact page split into sections. The top section you can join the league and the bottom you can sign up for tournaments. As I had made the dummy tournaments a "solo", "Duo" and "Squad" it would mean that the sign up form for a solo or duo would only require one or two gamertags. I thought this would look out of place so I decided to make 3 seperate fieldsets in the signup section for each different tournament type. This also then allowed me to make the gamertags a required field that all had to be filled in order to sign up.  
 
 
 
