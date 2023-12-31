@@ -180,28 +180,28 @@ legend {
 .nav-link:hover {
     background-color: rgba(255, 0, 0, 0.411);
     border: 1px solid rgba(255, 0, 0, 0.781);
-    color: white;
     font-size: 1.3rem;
 }
-
-.navbar-brand:hover {
+/*--------------------------------------------Font colour*/
+.nav-link.sign-in:hover,
+.nav-link.tournament:hover,
+.nav-link.news:hover,
+.nav-link:focus,
+.nav-link:hover,
+.navbar-brand:hover,
+.contact-us:hover,
+.warren:hover{
     color: white;
 }
-
-
-.button:hover {
-    font-size: 1.3rem;
-    color: red;
-}
-
-.contact-us:hover {
-    font-size: 1.3rem;
-    color: white;
-}
-
+/*--------------------------------------------Font size*/
+.button:hover,
+.contact-us:hover,
 .warren:hover {
     font-size: 1.3rem;
-    color: white;
+}
+
+.button:hover {
+    color: red;
 }
 
 .card-link:hover {
@@ -554,8 +554,7 @@ footer a {
     }
 
     .button:hover {
-        font-size: 1rem;
-        color: red;
+        font-size: 0.8rem;
     }
 
     .card-link:hover {
@@ -719,11 +718,17 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
     .background-image {
-        height: 67vh;
+        height: 45vh;
         width: 100%;
         object-fit: cover;
+        animation-name: none;
+    }
+
+    #cta {
+        height: 45vh;
+        padding-top: 3vh;
     }
 
     #upcoming-tournaments {
@@ -734,7 +739,7 @@ footer a {
     .tagline {
         text-align: center;
         position: absolute;
-        top: 25%;
+        top: 15%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -742,9 +747,19 @@ footer a {
     .tagline2 {
         text-align: center;
         position: absolute;
-        top: 33%;
+        top: 21%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .join {
+        text-align: center;
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 24px;
+        height: 40px;
     }
 
     .button {
@@ -936,7 +951,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .background-image {
         height: 67vh;
         width: 100%;
@@ -985,7 +1000,7 @@ footer a {
     }
 
     .button:hover {
-        font-size: 1rem;
+        font-size: 0.5rem;
         color: red;
     }
 
@@ -1051,7 +1066,6 @@ footer a {
         height: 45vh;
 
     }
-
 
     /*--------------------------------------------Form opaque background heights end*/
 
