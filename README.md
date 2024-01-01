@@ -2,7 +2,7 @@
 
 GamerLeague are a group of competitive gamers ranging from amateur to professional level. Our aim is to provide gamers a competitive setting to compete at the highest level. 
 
-Anyone is able to join the league via the form application on the join us page. You can also sign up for any Solo, Duo and Squad events. In the tournament section you will find a gallery of recent tournaments held. You can also contact us if you have any issues via the contact us section in the footer. Here you fill our your details and submit any issues you have. You can also find links to our socials.
+Anyone is able to join the league via the form application on the join us page. There you will find sections to sign up for any Solo, Duo and Squad events. In the tournament section you will find a gallery of recent tournaments held. If you have any issues, 'contact us' is found in the footer, you can fill out your your details and submit any issues you have. Links to our socials are also present.
 
  
 ![An images showing the website being responsive across multiple devices](assets/images/am-i-responsive-image.png "Resonsive site")
@@ -65,11 +65,11 @@ To determine which approach to take with site features I detirmined the goals of
     * As a user I want to be able to review the gallery and see new photos of recent tournaments
     * As a user I want to see the latest information coming in from pro's or breakdown the latest tournaments with an experience cast.
 
-    ## Wire Frames
+## Wire Frames
 
-    When designing this website I intended the site to have a very minimal design that was easy to spot what was relevant information and how to navigate to where they wanted to be. 
+When designing this website I intended the site to have a very minimal design that was easy to spot what was relevant information and how to navigate to where they wanted to be. 
 
-    I have made some changes during the creation of the website. These changes were to the [Home Page](#home-page---wireframe-for-desktop-tablet-and-mobile), [Gallery Page](#gallery-page---wireframe-for-desktop-tablet-and-mobile) and the [Join Page](#join-page---wireframe-for-desktop-tablet-and-mobile)
+I have made some changes during the creation of the website. These changes were to the [Home Page](#home-page---wireframe-for-desktop-tablet-and-mobile), [Gallery Page](#gallery-page---wireframe-for-desktop-tablet-and-mobile) and the [Join Page](#join-page---wireframe-for-desktop-tablet-and-mobile)
 
 ### Home Page - Wireframe for Desktop, Tablet and Mobile.
 ![An images showing the website wireframes across different devices](ux/wireframes/home-page-wireframe.png "Home Page Wireframe")
@@ -145,6 +145,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 * The Nav bar design is intenticle across every page.
 * The Nav bar allows you to easily explore the site by clicking each page at the top allowing you to get to and from each page without needing the backwards and forwards browser buttons. 
 * The Nav bar also has a mobile view consisting of a hamburger icon. Once selected this will bring a dropdown list of the pages as show below: 
+
 ![An image showing the navigation bar for mobile view when the page icon is toggled.](features/development-images/navbar-mobile-toggled.png "Navbar Mobile View")
 
 
