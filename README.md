@@ -166,3 +166,19 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 * 3 cards split into different columns. Each with information on a different tournament and an image to tell you which game they are for.
 * Each card has a hover effect. When the mouse hovers over the card a red border will apear on the left side and the card font will grow slight larger and drop down.
 
+#### Section 2 - About us
+
+![An image showing the about us section.](features/development-images/section-2-about-us.png "Section 2 - About Us")
+
+* Same card design as previously - shorter and smaller to match the content
+* A card explaining who the site owners are and what they do. Goals of the site included.
+* x2 embedded youtube videos - one is a talk show hosted by retired professional gamers breaking down a recent tournament. The other is a professional coach in the Call of Duty League teaching players about proessional matches and how outcomes in that match were reached. This gives the site an image of a professional and knowledgeable gaming league. 
+
+#### Footer
+
+![An image showing the website footer.](features/development-images/footer.png "Footer")
+
+* Simple dark navy colour matching the nav bar fixed to the top.
+* Links to social media. These will open in a new tab allowing for easier navigation and to avoid the user's confusion in losing the main site. 
+* Contact us page and copyright pages are highlighted in red to make them easy to locate. Hover effect in place to make them stand out.
+* Copyright page redirects to my github.
