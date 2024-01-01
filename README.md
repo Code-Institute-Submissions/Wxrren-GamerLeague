@@ -148,8 +148,21 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 ![An image showing the navigation bar for mobile view when the page icon is toggled.](features/development-images/navbar-mobile-toggled.png "Navbar Mobile View")
 
+#### Main Heading
 
+![An image showing the main heading of the website.](features/development-images/main-heading.png "Main Heading")
 
+* Main heading consists of a background image with the Red vs Blue theme. The image features a shield and trophy to symbolise competition and a red and blue scoreboard on each side. 
+* Background image has an subtle animation that starts the image at full size and slowly zooms in bringing the trophy and shield slightly closer.
+* The main heading consists of a simple tagline to attract competitive users. It also set's the tone immediately for what the site is about.
+* Simple call to action in the form of a button to join the league. This button takes you through to the join page.
 
+#### Section 1 - Upcoming Tournaments
 
+![An image showing the upcoming tournaments section.](features/development-images/section-1-upcoming-tournaments.png "Section 1 - Upcoming Tournaments")
+
+* Simple headline - white to stand out.
+* Simple instructions for how to sign up to each tournament.
+* 3 cards split into different columns. Each with information on a different tournament and an image to tell you which game they are for.
+* Each card has a hover effect. When the mouse hovers over the card a red border will apear on the left side and the card font will grow slight larger and drop down.
 
