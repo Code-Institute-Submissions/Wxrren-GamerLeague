@@ -18,8 +18,8 @@ Anyone is able to join the league via the form application on the join us page. 
 * #### [WireFrames](#wire-frames) (View the repository [here](https://github.com/Wxrren/1st-milestone-project-GamerLeague/tree/main/ux/wireframes))
 * #### [Design](#design-1)
 
-### Features
-* #### Existing Features
+### [Features](#features-1)
+* #### [Existing Features](#existing-features-1)
 * #### Discontinued features
 * #### Development images
 
