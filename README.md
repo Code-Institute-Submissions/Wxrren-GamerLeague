@@ -114,6 +114,23 @@ For the cards on the home page - I chose to keep these without the overlay to st
 
 * #000000 - Used as a transparent overlay with RGBA code rgba(0, 0, 0, .6). This helped make the blue and reds appear a little darker so that the content can stand out more.
 
+### Typography
+
+* Nova Square 
+    
+    * I chose Nova Square as the main font from google fontsas I felt it meshed well with a gaming brand due to the style of the lettering and the boldness of the text to stand out. I also had Sans serif as a back up in case this didn't work.
+
+* Sans Serif
+
+    *  I had Sans Serif for 2 uses. I  had it as a back up in case Nova Square didn't work. I also used it for the Nav bar, buttons and general info as I felt a clear and simple font would make it easiest to take in information and navigate the site.
+
+### WireFrames
+
+I created my wireframes using balsamiq wireframes. I found this simple and effective for coming up with how I wanted the site to look as it had a variety of ready available tools representing different parts of a website so I was able to design it how I envisioned it in my head.
+
+
+
+
 
 
 
