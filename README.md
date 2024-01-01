@@ -128,6 +128,24 @@ For the cards on the home page - I chose to keep these without the overlay to st
 
 I created my wireframes using balsamiq wireframes. I found this simple and effective for coming up with how I wanted the site to look as it had a variety of ready available tools representing different parts of a website so I was able to design it how I envisioned it in my head.
 
+## Features
+* This website is targeting people looking to compete in game tournaments for cash prizes
+* They can do this by joining the League and signing up to tournaments on the join page.
+* Responsive on all device sizes.
+
+### Existing Features
+
+#### Navigation bar
+
+![An image showing the navigation bar for desktop view.](features/development-images/navbar-desktop.png "Navbar Desktop View")
+![An image showing the navigation bar for mobile view.](features/development-images/navbar-mobile.png "Navbar Mobile View")
+
+* The Nav bar is fixed to the top of every every page including the contact us page reachable through the footer.
+* The Nav bar includes links to the Home page, Tournaments page and the Signup/Join page. Where you are on the site can be easily identified by these links as your current active page will be highlighted by a red border/background colour as well as a larger font at all times. You can also see which page you are hovering over because each link has a similar effect to the active page where it will turn red and the font will become larger.
+* The Nav bar design is intenticle across every page.
+* The Nav bar allows you to easily explore the site by clicking each page at the top allowing you to get to and from each page without needing the backwards and forwards browser buttons. 
+* The Nav bar also has a mobile view consisting of a hamburger icon. Once selected this will bring a dropdown list of the pages as show below: 
+![An image showing the navigation bar for mobile view when the page icon is toggled.](features/development-images/navbar-mobile-toggled.png "Navbar Mobile View")
 
 
 
