@@ -194,7 +194,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 #### Sign up/join
 
 ![An image showing the website join page.](features/development-images/join-gamer-league.png "Join")
-![An image showing the website Sign up page.](features/development-images/sign-up%20page.png "Sign up")
+![An image showing the website Sign up page.](features/development-images/sign-up-page.png "Sign up")
 
 * Single contact page for both joining the league and signing up to tournaments.
 * The user can choose which differnt tournament type they would like to enter.
