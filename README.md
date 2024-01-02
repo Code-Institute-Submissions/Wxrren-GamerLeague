@@ -199,5 +199,13 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 * Single contact page for both joining the league and signing up to tournaments.
 * The user can choose which differnt tournament type they would like to enter.
 * In future I would like this to be a join only page and the signup's to be modals to make the sign up process faster.
-* Completetion takes you to form dump page on a seperate tab to ensure each of use for user.
+* Completetion takes you to form dump page on a seperate tab to ensure ease of use for user.
 * Password parameters displayed upon hover over password
+
+#### Contact Us Page
+
+![An image showing the website Contact us page.](features/development-images/contactus-desktop-view.png "Contact us")
+
+* Simple contact page with form asking for basic details and a text area to voice any feedback/concerns.
+* Completetion takes you to form dump page on a seperate tab to ensure ease of use for user.
+* In future I would like the data in this form to be  sent to a business email as well as sending a confirmation to the customer.
