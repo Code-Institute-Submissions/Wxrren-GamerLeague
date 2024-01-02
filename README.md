@@ -183,3 +183,21 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 * Links to social media. These will open in a new tab allowing for easier navigation and to avoid the user's confusion in losing the main site. 
 * Contact us page and copyright pages are highlighted in red to make them easy to locate. Hover effect in place to make them stand out.
 * Copyright page redirects to my github.
+
+#### Tournament page
+
+![An image showing the website tournament page.](features/development-images/gallery-page.png "Gallery")
+
+* The gallery shows users previously run tournaments. This create's authenticity to site as well as shows the user's what they are missing out on.
+* Valuable to users who want to see the fun for themselves and feel confident the league is serious.
+
+#### Sign up/join
+
+![An image showing the website join page.](features/development-images/join-gamer-league.png "Join")
+![An image showing the website Sign up page.](features/development-images/sign-up%20page.png "Sign up")
+
+* Single contact page for both joining the league and signing up to tournaments.
+* The user can choose which differnt tournament type they would like to enter.
+* In future I would like this to be a join only page and the signup's to be modals to make the sign up process faster.
+* Completetion takes you to form dump page on a seperate tab to ensure each of use for user.
+* Password parameters displayed upon hover over password
