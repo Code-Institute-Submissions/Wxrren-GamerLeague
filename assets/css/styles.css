@@ -430,7 +430,13 @@ p.card-text {
     width: 100%;
 }
 
+.nysl {
+    height: 51vh;
+}
 
+.cdl-major {
+    height: 50.5vh;
+}
 /*--------------------------------------------Contact Us*/
 
 #contact-us {
