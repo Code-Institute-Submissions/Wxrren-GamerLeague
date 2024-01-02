@@ -20,8 +20,7 @@ Anyone is able to join the league via the form application on the join us page. 
 
 ### [Features](#features-1)
 * #### [Existing Features](#existing-features-1)
-* #### Discontinued features
-* #### Development images
+* #### [Features Left to Implement](#features-left-to-implement-1)
 
 ### Testing
 * #### Validation Results
@@ -198,7 +197,6 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 * Single contact page for both joining the league and signing up to tournaments.
 * The user can choose which differnt tournament type they would like to enter.
-* In future I would like this to be a join only page and the signup's to be modals to make the sign up process faster.
 * Completetion takes you to form dump page on a seperate tab to ensure ease of use for user.
 * Password parameters displayed upon hover over password
 
@@ -208,4 +206,13 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 * Simple contact page with form asking for basic details and a text area to voice any feedback/concerns.
 * Completetion takes you to form dump page on a seperate tab to ensure ease of use for user.
-* In future I would like the data in this form to be  sent to a business email as well as sending a confirmation to the customer.
+
+## Features Left to Implement
+
+* Upcoming Tournaments Section
+   
+    * I would like selecting the tournament cards to bring a pop up modal onto the screen allowing for the ability to sign up to tournaments faster.
+
+* Contact Us Page
+
+    * I would like to create a back end so that the data in this form is sent to a business email as well as sending a confirmation to the customer for better user experience.
