@@ -27,7 +27,7 @@ Anyone is able to join the league via the form application on the join us page. 
 * #### Manual Testing
 * #### Lighthouse Report
 
-### Technologies Used
+### [Technologies Used](#technologies-used-1)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -227,3 +227,9 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 * Contact Us Page
 
     * I would like to create a back end so that the data in this form is sent to a business email as well as sending a confirmation to the customer for better user experience.
+
+## Technologies Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
