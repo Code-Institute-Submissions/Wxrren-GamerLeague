@@ -404,15 +404,20 @@ p.card-text {
 /*--------------------------------------------Tournaments page*/
 
 #gallery {
-    height: 340vh;
+    height: 100%;
     padding-top: 3.3vh;
     text-align: center;
 }
 
+#gallery-2,
+#gallery-3 {
+    height: 100%;
+    text-align: center;
+}
 
 .photo {
     clear: both;
-    line-height: 0;
+    line-height: 1vh;
 
 }
 
@@ -425,13 +430,6 @@ p.card-text {
     width: 100%;
 }
 
-.s1mple {
-    height: 32.5vh;
-}
-
-.halo-photo {
-    height: 44.5vh;
-}
 
 /*--------------------------------------------Contact Us*/
 
