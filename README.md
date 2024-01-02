@@ -27,7 +27,18 @@ Anyone is able to join the league via the form application on the join us page. 
 * #### Manual Testing
 * #### Lighthouse Report
 
+### Technologies Used
+
+### Frameworks, Libraries & Programs Used
+
 ### Deployment and local development
+* #### GitHub Pages
+* #### Forking the GitHub Repository
+* #### Local Clone
+
+### Credits
+
+### Acknowledgements
 ------
 
 ## User Experience (UX)
