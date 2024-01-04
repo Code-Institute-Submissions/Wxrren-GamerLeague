@@ -29,7 +29,7 @@ Anyone is able to join the league via the form application on the join us page. 
 
 ### [Technologies Used](#technologies-used-1)
 
-### Frameworks, Libraries & Programs Used
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
 
 ### Deployment and local development
 * #### GitHub Pages
@@ -232,4 +232,29 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks, Libraries & Programs Used
+
+* [Visual Studio Code](https://code.visualstudio.com) 
+    * Used to write the code/README.
+
+* [Git](https://git-scm.com)
+    *  Tracking changes in my course code and pushing them to github.
+
+* [Github](https://github.com)
+    * To store my code/files and deploy my website.
+
+* [Google Fonts](https://fonts.google.com)
+    * Used for importing my main font for the website
+
 * [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    * Used for making web deelopment faster. My usage was for card columns + Nav bar.
+
+* [Font Awesome](https://fontawesome.com)
+    * Used for importing logo's for the website.
+
+* [Icons8](https://icons8.com/icons)
+    * Hamburger icon for mobile Nav bar toggler.
+
+* [Am I Responsive](https://ui.dev/amiresponsive)
+    * Mock picture for README file.
