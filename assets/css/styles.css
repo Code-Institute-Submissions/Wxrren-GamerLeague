@@ -81,6 +81,11 @@ legend,
     --bs-btn-padding-y: 0.55rem;
 }
 
+.contact {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /* ----------------------------------------fonts family*/
 .tagline,
 .tagline2,
