@@ -261,7 +261,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 ## Deployment and local development
 
-*  GitHub Pages
+*  ### GitHub Pages
 
 I used GitHub to deploy the live version of the website. To do this I had to: 
 
@@ -282,17 +282,29 @@ I used GitHub to deploy the live version of the website. To do this I had to:
 
 ![An image showing the repository page with pages highlighted.](deployment/site-link-github-pages.png "Site Link")
 
-* Forking the GitHub Repository
+* ### Forking the GitHub Repository
 
 Forking the repository allows you to make a copy of the original repository on my GitHub account to view and change without affecting the original repository. To achieve this, follow these steps:
 
 1. Log in to GitHub and locate the GitHub GamerLeague [Repository](https://github.com/Wxrren/GamerLeague)
 2. At the top of the Repository(above the about section) locate "Fork" button.
 
-![An image showing the repository page with For highlighted.](deployment/fork-location.png "Fork Location")
+![An image showing the repository page with Fork highlighted.](deployment/fork-location.png "Fork Location")
 
 3. Once complete you should have a copy of the original repository in your GitHub account.
 
+* ### Local Clone
+
+1. Log in to GitHub and locate the GitHub GamerLeague [Repository](https://github.com/Wxrren/GamerLeague)
+2. Above the list of files, click  Code.
+
+![An image showing the repository page with Fork highlighted.](deployment/code.png "Fork Location")
+
+3. Click on the code button, select clone with any of the options provided (These options are HTTPS, SSH or GitHub CLI) and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be created.
+6. Type **GIT CLONE**, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
 
 
 
