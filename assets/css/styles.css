@@ -196,7 +196,7 @@ legend {
 /*--------------------------------------------Font size*/
 .button:hover,
 .contact-us:hover,
-.warren:hover {
+.warren:hover{
     font-size: 1.3rem;
 }
 
@@ -226,6 +226,11 @@ legend {
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+.link { 
+    text-decoration: none;
+    color: white;
 }
 
 /*--------------------------------------------Zoom effect - idea from love running section*/
