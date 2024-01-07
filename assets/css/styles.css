@@ -76,6 +76,11 @@ legend,
     font-weight: 800;
 }
 
+.btn {
+    --bs-btn-font-weight: 800;
+    --bs-btn-padding-y: 0.55rem;
+}
+
 /* ----------------------------------------fonts family*/
 .tagline,
 .tagline2,
@@ -117,6 +122,7 @@ legend {
     text-transform: uppercase;
     font-weight: 500;
 }
+
 
 /* ----------------------------------------Opaque page styles*/
 .opaque-size-home {
@@ -209,6 +215,19 @@ legend {
     border: 5px solid rgba(255, 0, 0, 0.781);
 }
 
+.btn-info:hover {
+    background-color: #01012c;
+}
+
+.btn-info:active {
+    --bs-btn-active-bg: #01012c;
+    --bs-btn-active-color: red;
+}
+
+.btn:hover {
+    --bs-btn-padding-y: 0.35rem;
+}
+
 /*--------------------------------------------Call to action/Section 1 */
 #cta {
     height: 70vh;
@@ -274,7 +293,7 @@ legend {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 24px;
-    height: 40px;
+    height: 45px;
     background-color: #01012c;
     border: 1px solid white;
 }
