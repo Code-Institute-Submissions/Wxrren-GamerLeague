@@ -235,8 +235,8 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 | Problem         | Action           | Status  |
 | ------------------------------------------------|:--------------------------------------:| -----:|
 | Hover function not applying to bootstrap nav bar.| Used google dev tools to find the bootstrap CSS, located the allocated class names names provided by bootstrap to target the areas I wanted to apply the hover effect. | Fixed |
-|  Text/buttons not centering over main page background image.   | I used the transform: Translate() method found on web3schools. by setting -50 for the x and y axis I was able to center it on the screen. Then I updated the position to absolute and used the top and left commands to get it where I wanted it on top of the image.      |   Fixed |
-| Unable to navigate between pages| Issue with page link missing the **.** in .html. Added in the missing dot. Navigation now working correctly.      |    Fixed |
+|  Text/buttons not centering over main page background image.   | Used the transform: Translate() method found on web3schools. by setting -50 for the x and y axis I was able to center it on the screen. Then I updated the position to absolute and used the top and left commands to get it where I wanted it on top of the image.      |   Fixed |
+| Unable to navigate between pages.| Issue with page link missing the **.** in .html. Added in the missing dot. Navigation now working correctly.      |    Fixed |
 | Multiple forms on same page are not acting separately when submitting.| Changed unique ID for each input/label within the indivual forms for solo/duo/squad. Each now able to sign in when filling out without requiring the other forms to be completed.      |    Fixed |
 
 ---
