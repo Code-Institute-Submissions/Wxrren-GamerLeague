@@ -31,10 +31,10 @@ Anyone is able to join the league via the form application on the join us page. 
 
 ### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
 
-### Deployment and local development
-* #### GitHub Pages
-* #### Forking the GitHub Repository
-* #### Local Clone
+### [Deployment and local development](#deployment-and-local-development-1)
+* #### [GitHub Pages](#github-pages-1)
+* #### [Forking the GitHub Repository](#forking-the-github-repository-1)
+* #### [Local Clone](#local-clone-1)
 
 ### Credits
 
@@ -258,3 +258,29 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mock picture for README file.
+
+## Deployment and local development
+
+*  GitHub Pages
+
+I used GitHub to deploy the live version of the website. To do this I had to: 
+
+1.  Log in to GitHub and locate the GitHub GamerLeague [Repository](https://github.com/Wxrren/GamerLeague)
+2.  Locate the "Settings" button at the top of the repository as show here:
+
+![An image showing the repository page with settings highlighted.](deployment/repository-settings-location.png "Settings")
+
+3. look down the "Code and automation" area until you find ["Pages"](https://github.com/Wxrren/GamerLeague/settings/pages) as shown below:
+
+![An image showing the repository page with pages highlighted.](deployment/pages-locations.png "Pages")
+
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+
+5. The page will automatically refresh.
+
+6. Scroll back to locate the now-published [site link](https://github.com/Wxrren/GamerLeague) in the "GitHub Pages" section as seen below:
+
+![An image showing the repository page with pages highlighted.](deployment/site-link-github-pages.png "Site Link")
+
+
+
