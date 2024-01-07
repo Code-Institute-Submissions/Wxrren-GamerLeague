@@ -282,5 +282,18 @@ I used GitHub to deploy the live version of the website. To do this I had to:
 
 ![An image showing the repository page with pages highlighted.](deployment/site-link-github-pages.png "Site Link")
 
+* Forking the GitHub Repository
+
+Forking the repository allows you to make a copy of the original repository on my GitHub account to view and change without affecting the original repository. To achieve this, follow these steps:
+
+1. Log in to GitHub and locate the GitHub GamerLeague [Repository](https://github.com/Wxrren/GamerLeague)
+2. At the top of the Repository(above the about section) locate "Fork" button.
+
+![An image showing the repository page with For highlighted.](deployment/fork-location.png "Fork Location")
+
+3. Once complete you should have a copy of the original repository in your GitHub account.
+
+
+
 
 
