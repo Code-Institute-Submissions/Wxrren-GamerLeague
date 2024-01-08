@@ -26,7 +26,7 @@ Anyone is able to join the league via the form application on the join us page. 
 
 ### [Testing](#testing-1)
 * #### [Validation Results](#validation-results-1)
-* #### Manual Testing
+* #### [Manual Testing](#manual-testing-1)
 * #### Lighthouse Report
 
 ### [Technologies Used](#technologies-used-1)
@@ -284,6 +284,38 @@ Testing consisted os using the W3C Markup and CSS Validator to go through each p
 ![HTML checker showing no errors on the CSS Stylesheet.](testing/css-validation.png "CSS")
 
 </details>
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Opera GX and Safari browsers.
+* The website was tested on a Desktop, Laptop, Tablet and x2 phones - one android and one apple.
+* Google Dev tools was used to test the responsiveness of the site on different screens.
+
+<details>
+<summary>Mobile/Tablet screenshots found here</summary>
+
+![Website running on tablet.](testing/manual-testing-tablet.png "Tablet")
+
+![Website running on Android.](testing/manual-testing-android.png "Android")
+
+![Website running on Apple.](testing/manual-testing-apple.png "Apple")
+
+</details>
+
+### Tests performed
+
+| Test        | Status           |
+| ------------- |:-------------:|
+| All Navbar links direct you to the correct page.      | Pass | 
+| Contact us in the footer leads to the contact us page.     | Pass      |
+| Social media links direct you to the correct site. | Pass      |
+| Site works correctly on Android mobile device. | Pass      |
+| Site works correctly on Apple mobile device. | Pass      |
+| Site works correctly on Apple tablet device. | Pass      |
+| Social media links direct you to the correct site. | Pass      |
+| Forms for join,signup and contact us pages take data and lead to code institue form dump.| Pass      |
+| User unable to submit without inputting the required elements.  | Pass      |
+
 
 ## Technologies Used
 
