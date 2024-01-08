@@ -24,8 +24,8 @@ Anyone is able to join the league via the form application on the join us page. 
 
 ### [Bugs](#bugs-1)
 
-### Testing
-* #### Validation Results
+### [Testing](#testing-1)
+* #### [Validation Results](#validation-results-1)
 * #### Manual Testing
 * #### Lighthouse Report
 
@@ -240,6 +240,50 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 | Multiple forms on same page are not acting separately when submitting.| Changed unique ID for each input/label within the indivual forms for solo/duo/squad. Each now able to sign in when filling out without requiring the other forms to be completed.      |    Fixed |
 
 ---
+
+## Testing
+
+Testing consisted os using the W3C Markup and CSS Validator to go through each page of the project and validate that the code has no errors. They can be located below: 
+
+* [W3C Markup Validator:](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+### Validation Results
+
+<details>
+<summary>index Page</summary>
+
+![HTML checker showing no errors on the index page.](testing/html-validation-index.png "index")
+
+</details>
+
+<details>
+<summary>Tournament Page</summary>
+
+![HTML checker showing no errors on the tournament Page.](testing/html-validation-tournament.png "Tournament")
+
+</details>
+
+<details>
+<summary>Signup Page</summary>
+
+![HTML checker showing no errors on the signup page.](testing/html-validation-sign-up.png "Signup")
+
+</details>
+
+<details>
+<summary>Contact Page</summary>
+
+![HTML checker showing no errors on the contact page.](testing/html-validation-contact.png "Contact")
+
+</details>
+
+<details>
+<summary>CSS</summary>
+
+![HTML checker showing no errors on the CSS Stylesheet.](testing/css-validation.png "CSS")
+
+</details>
 
 ## Technologies Used
 
