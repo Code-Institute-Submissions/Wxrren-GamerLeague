@@ -567,7 +567,7 @@ footer a {
     }
 
     .container-fluid.bg-color-nav {
-        height: 10vh;
+        height: 5vh;
     }
 
     .outer-image {
@@ -697,7 +697,8 @@ footer a {
 
     /*--------------------------------------------Footer */
     footer {
-        height: 25vh;
+        height: 15vh;
+        padding-top: 15px;
         color: white;
         text-align: center;
 
@@ -706,14 +707,15 @@ footer a {
     /*--------------------------------------------Contact Us*/
 
     #contact-us {
-        height: 90vh;
-        padding-top: 3.3vh;
+        height: 100%;
+        padding-top: 1.1vh;
+       
     }
 
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 75vh;
         text-align: center;
     }
 
