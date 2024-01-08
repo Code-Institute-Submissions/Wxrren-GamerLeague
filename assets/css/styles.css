@@ -567,7 +567,12 @@ footer a {
     }
 
     .container-fluid.bg-color-nav {
-        height: 5vh;
+        height: 9.5vh;
+    }
+
+    .btn {
+        --bs-btn-font-weight: 800;
+        --bs-btn-padding-y: 0.1rem;
     }
 
     .outer-image {
@@ -600,7 +605,7 @@ footer a {
     }
 
     #join-gamerleague {
-        height: 62vh;
+        height: 115vh;
         width: 100%;
         padding-top: 3.3vh;
         text-align: center;
@@ -612,7 +617,7 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         width: 90vw;
-        height: 55vh;
+        height: 105vh;
     }
 
     .button-style {
@@ -639,7 +644,7 @@ footer a {
 
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 130vh;
+        height: 215vh;
     }
 
     .signup-form {
@@ -650,15 +655,15 @@ footer a {
 
     /*--------------------------------------------Form opaque background heights*/
     .solo {
-        height: 31vh;
+        height: 55vh;
     }
 
     .duo {
-        height: 36vh;
+        height: 63vh;
     }
 
     .squad {
-        height: 45vh;
+        height: 79vh;
     }
 
     /*--------------------------------------------Form opaque background heights end*/
@@ -697,7 +702,7 @@ footer a {
 
     /*--------------------------------------------Footer */
     footer {
-        height: 15vh;
+        height: 100%;
         padding-top: 15px;
         color: white;
         text-align: center;
@@ -707,15 +712,15 @@ footer a {
     /*--------------------------------------------Contact Us*/
 
     #contact-us {
-        height: 100%;
-        padding-top: 1.1vh;
+        height: 170vh;
+        padding-top: 2.5vh;
        
     }
 
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 75vh;
+        height: 140vh;
         text-align: center;
     }
 
@@ -736,7 +741,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 13vw;
+        left: 19vw;
     }
 
     /*--------------------------------------------photos*/
