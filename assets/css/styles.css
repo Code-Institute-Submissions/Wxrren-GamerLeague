@@ -567,7 +567,7 @@ footer a {
     }
 
     .container-fluid.bg-color-nav {
-        height: 9.5vh;
+        height: 10vh;
     }
 
     .btn {
@@ -630,7 +630,8 @@ footer a {
     }
 
     .card-image {
-        width: 240px
+        width: 240px;
+        object-fit: cover;
     }
 
     .nav-link {
@@ -865,7 +866,8 @@ footer a {
     }
 
     .card-image {
-        width: 240px
+        width: 400px;
+        object-fit: cover;
     }
 
     .nav-link {
@@ -1077,7 +1079,8 @@ footer a {
     }
 
     .card-image {
-        width: 240px
+        width: 290px;
+        object-fit: cover;
     }
 
 
@@ -1290,7 +1293,8 @@ footer a {
     }
 
     .card-image {
-        width: 240px
+        width: 410px;
+        object-fit: cover;
     }
 
 
@@ -1504,7 +1508,8 @@ footer a {
     }
 
     .card-image {
-        width: 240px
+        width: 310px;
+        object-fit: cover;
     }
 
 
@@ -1664,6 +1669,12 @@ footer a {
         border: 1px solid white;
         border-radius: 24px;
     }
+
+    .card-image {
+        width: 370px;
+        object-fit: cover;
+    }
+
 
     /*--------------------------------------------Sign up section*/
     #sign-up {
