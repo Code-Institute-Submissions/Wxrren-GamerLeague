@@ -27,7 +27,7 @@ Anyone is able to join the league via the form application on the join us page. 
 ### [Testing](#testing-1)
 * #### [Validation Results](#validation-results-1)
 * #### [Manual Testing](#manual-testing-1)
-* #### Lighthouse Report
+* #### [Lighthouse Report](#lighthouse-report-1)
 
 ### [Technologies Used](#technologies-used-1)
 
@@ -316,6 +316,69 @@ Testing consisted os using the W3C Markup and CSS Validator to go through each p
 | Forms for join,signup and contact us pages take data and lead to code institue form dump.| Pass      |
 | User unable to submit without inputting the required elements.  | Pass      |
 
+--- 
+### Lighthouse Report
+
+* Mobile Results
+
+<details>
+<summary>Home Page</summary>
+
+![Lighthouse scores for index page on mobile.](testing/lighthouse-mobile-index.png "Index mobile")
+
+</details>
+
+<details>
+<summary>Tournament Page</summary>
+
+![Lighthouse scores for tournament page on mobile.](testing/lighthouse-mobile-tournament.png "Tournament mobile")
+
+</details>
+
+<details>
+<summary>Sign up/Join Page</summary>
+
+![Lighthouse scores for sign up/Join page on mobile.](testing/lighthouse-mobile-sign-up.png "Sign up/Join mobile")
+
+</details>
+
+<details>
+<summary>Contact Page</summary>
+
+![Lighthouse scores for contact page on mobile.](testing/lighthouse-mobile-contact.png "Contact mobile")
+
+</details>
+
+---
+* Desktop Results
+
+<details>
+<summary>Home Page</summary>
+
+![Lighthouse scores for index page on Desktop.](testing/lighthouse-desktop-index.png "Index Desktop")
+
+</details>
+
+<details>
+<summary>Tournament Page</summary>
+
+![Lighthouse scores for tournament page on Desktop.](testing/lighthouse-desktop-tournament.png "Tournament Desktop")
+
+</details>
+
+<details>
+<summary>Sign up/Join Page</summary>
+
+![Lighthouse scores for sign up/Join page on Desktop.](testing/lighthouse-desktop-sign-up.png "Sign up/Join Desktop")
+
+</details>
+
+<details>
+<summary>Contact Page</summary>
+
+![Lighthouse scores for contact page on Desktop.](testing/lighthouse-desktop-contact.png "Contact Desktop")
+
+</details>
 
 ## Technologies Used
 
