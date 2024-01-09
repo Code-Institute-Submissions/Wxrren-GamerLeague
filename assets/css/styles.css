@@ -460,10 +460,12 @@ p.card-text {
 
 .nysl {
     height: 51vh;
+    object-fit: cover;
 }
 
 .cdl-major {
     height: 50.5vh;
+    object-fit: cover;
 }
 /*--------------------------------------------Contact Us*/
 
