@@ -171,6 +171,7 @@ legend {
     margin-bottom: 10px;
     height: 40px;
     width: 40px;
+    object-fit: cover;
 }
 
 .nav-link {
