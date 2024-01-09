@@ -8,7 +8,7 @@ Anyone is able to join the league via the form application on the join us page. 
 ![An images showing the website being responsive across multiple devices](assets/images/am-i-responsive-image.png "Resonsive site")
 
 
-[You can visit the GamerLeague website here](https://wxrren.github.io/1st-milestone-project-GamerLeague/)
+[You can visit the GamerLeague website here](https://wxrren.github.io/GamerLeague/)
 ------
 
 ## Table of Contents
