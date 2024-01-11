@@ -38,9 +38,9 @@ Anyone is able to join the league via the form application on the join us page. 
 * #### [Forking the GitHub Repository](#forking-the-github-repository-1)
 * #### [Local Clone](#local-clone-1)
 
-### Credits
+### [Credits](#credits-1)
 
-### Acknowledgements
+### [Acknowledgements](#acknowledgements-1)
 ------
 
 ## User Experience (UX)
@@ -461,10 +461,6 @@ Forking the repository allows you to make a copy of the original repository on m
 
 ## Credits
 
-* Information on flexbox was provided by: [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* Information on CSS Grid was provided by: [Complete Guide Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* README Template provided by [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) & [Markdown Template](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
-
 ### Images:
 
 * Main page image provided by [www.dreamstime.com](https://www.dreamstime.com/champion-cup-award-tournament-video-game-scifi-gaming-red-blue-vs-e-sports-backgound-vr-virtual-reality-simulation-metave-image252086237). I paid £3 for the rights to use the background image.
@@ -490,6 +486,28 @@ Forking the repository allows you to make a copy of the original repository on m
 * Minnesota challengers sourced from [Dexerto](https://www.dexerto.com/call-of-duty/what-does-call-of-duty-franchising-mean-amateur-players-938186/)
 * New York Subliners Major 1 sourced from [Sports illustrated](https://esi.si.com/call-of-duty/call-of-duty-league-major-1-recap)
 * Next CSGO Major sourced from [Essentially Esports](https://www.essentiallysports.com/esports-news-thats-the-worst-trophy-ive-ever-witnessed-last-cs-go-major-trophy-receives-criticism-from-disgruntled-fans/)
+* OpTic 22 Champions sourced from [HCS](https://twitter.com/HCS/status/1584369822183612416)
+* OpTic vs Cloud9 sourced from [Dexerto](https://www.dexerto.com/esports/multiple-optic-gaming-staff-members-let-go-in-further-esports-industry-layoffs-2044501/)
+* OpTic vs Quadrants sourced from [Dotesports](https://dotesports.com/business/news/saudi-backed-group-scoops-up-more-esports-companies-broadening-gaming-influence)
+* S1mple Troll sourced from [Business of Esports](https://thebusinessofesports.com/2022/01/14/introducing-s1mple-pc-esports-player-of-the-year/)
 
+### Content and Resources
+
+* All content was written by the myself.
+* Information on flexbox was provided by: [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+* Information on CSS Grid was provided by: [Complete Guide Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+* README Template provided by [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) & [Markdown Template](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables).
+* Bootstrap was used to help with the card grids and NavBar. I used a combination of [Bootstrap Studio](https://bootstrapstudio.io) and [Bootstrap.com](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
+* To help with getting text on top of an image - I learned a method from [w3schools](https://www.w3schools.com/css/css3_2dtransforms.asp)
+* x2 websites used to compress the images. [tinypng](https://tinypng.com) and [freecompress](https://freecompress.com/compress-webp.)
+* To get the RGBA value from HEX I used: [RGBAColourPicker](https://rgbacolorpicker.com/hex-to-rgba)
+* To get the RGB and colour values for the design section of this read me - I used [Color Hex](https://www.color-hex.com/color/000000) and [w3schools](https://www.w3schools.com/colors/colors_rgb.asp)
+* I created this project inline with the course content of [Code Institure](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=635720257674&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiAwP6sBhDAARIsAPfK_wZpFDXlxByAgIRT2S39rCz7auVaNWgJ2FF7efFEtX-oT-_qhvkTSiIaApIBEALw_wcB)
+
+## Acknowledgements
+
+* My mentor Mitko Bachvarov for providing helpful feedback and a link to the Flexbox and grid guide.
+* Alan Bushell for providing helpful feedback and advice during the stages of this project.
+* Emily for her support during the project process, assistance with testing and advice on the written portion.
 
 
