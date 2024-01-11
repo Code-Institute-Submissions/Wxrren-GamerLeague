@@ -459,5 +459,37 @@ Forking the repository allows you to make a copy of the original repository on m
 7. Press Enter to create your local clone.
 
 
+## Credits
+
+* Information on flexbox was provided by: [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* Information on CSS Grid was provided by: [Complete Guide Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* README Template provided by [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) & [Markdown Template](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+
+### Images:
+
+* Main page image provided by [www.dreamstime.com](https://www.dreamstime.com/champion-cup-award-tournament-video-game-scifi-gaming-red-blue-vs-e-sports-backgound-vr-virtual-reality-simulation-metave-image252086237). I paid £3 for the rights to use the background image.
+* Hamburger Icon sourced from [www.icons8.com](https://icons8.com/icons/set/hamburger)
+* Card Image sourced from [www.xbox.com](https://www.xbox.com/en-GB/games/call-of-duty-modern-warfare-iii)
+* COD CDL Tournament sourced from [www.3rd-strike.com](https://3rd-strike.com/the-rise-of-esports-the-major-video-game-tournaments/)
+* COD champs Seattle sourced from [Dotesports](https://dotesports.com/call-of-duty/news/results-for-2023-call-of-duty-league-major-4)
+* CSGO Crowd sourced from [TSK Media](https://tskmediadn.com/cong-ty-to-chuc-su-kien-da-nang-tuyen-dung/)
+* EPIC 40 lan sourced from [Esports news UK](https://esports-news.co.uk/2023/11/06/epic-40-esports-cs2-charity-match/)
+* ESL Crowd sourced from [ESL](https://twitter.com/ESLCS/status/751810306159116292)
+* Faze Major sourced from [Sports illustrated](https://esi.si.com/call-of-duty/call-of-duty-league-major-ii-schedule-scores-bracket)
+* Florida Mutineers sourced from [www.Theloadout.com](https://www.theloadout.com/tournaments/call-of-duty-league/stage-5-major-live-audience)
+* Halo World Champs sourced from [www.Theloadout.com](https://www.theloadout.com/tournaments/call-of-duty-league/stage-5-major-live-audience)
+* HCS Raliegh sourced by [www.kotaku.com](https://kotaku.com/continued-xbox-shortages-force-microsoft-to-use-dev-kit-1848240181)
+* IEM Cologne sourced by [Dotesports](https://dotesports.com/counter-strike/news/seamless-transition-key-for-esl-as-cs2-era-begins-at-iem-sydney)
+* IEM Cologne crowd sourced by [Dotesports](https://dotesports.com/counter-strike/news/breaking-valve-setting-up-open-cs2-esports-scene-ending-partnership-leagues-in-2025)
+* IEM Katowice sourced by [navi.gg](https://navi.gg/en/publications/5577-iem-katowice-2020-tournament-preview)
+* IEM Sydney sourced by [Dotesports](https://dotesports.com/counter-strike/news/4-csgo-top-tier-teams-in-2023-form-group-of-death-at-first-big-cs2-tournament)
+* Isomnia Festival sourced from [Esports news UK](https://esports-news.co.uk/2021/12/17/insomnia-gaming-festival-confirmed-april-2022-physical-event/)
+* Jimphhat sourced from [Dust2 In](https://www.dust2.in/news/40484/visa-issues-plague-first-cs2-lan)
+* Katowice sourced from [HLTV.org](https://www.hltv.org/news/25822/cis-europe-minors-viewers-guide)
+* m0nesy ESL Pro League 16 sourced from [eSports.gg](https://esports.gg/news/cs-go/m0nesy-even-two-years-ago-i-said-the-awp-should-be-nerfed-a-little-bit-maybe-in-ammo/)
+* Minnesota challengers sourced from [Dexerto](https://www.dexerto.com/call-of-duty/what-does-call-of-duty-franchising-mean-amateur-players-938186/)
+* New York Subliners Major 1 sourced from [Sports illustrated](https://esi.si.com/call-of-duty/call-of-duty-league-major-1-recap)
+* Next CSGO Major sourced from [Essentially Esports](https://www.essentiallysports.com/esports-news-thats-the-worst-trophy-ive-ever-witnessed-last-cs-go-major-trophy-receives-criticism-from-disgruntled-fans/)
+
 
 
