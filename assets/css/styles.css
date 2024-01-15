@@ -364,7 +364,7 @@ p.card-text {
 .join-gamerleague-form {
     margin: auto;
     width: 25vw;
-    height: 50vh;
+    height: 52vh;
 }
 
 .button-style {
@@ -408,6 +408,14 @@ p.card-text {
 .signup-label {
     display: grid;
     grid-template-columns: 200px 200px;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 9px;
+}
+
+.Join-label {
+    display: grid;
+    grid-template-columns: 180px 270px;
     align-items: center;
     padding-left: 20px;
     padding-top: 9px;
@@ -570,7 +578,7 @@ footer a {
     }
 
     .container-fluid.bg-color-nav {
-        height: 10vh;
+        height: 6%;
     }
 
     .btn {
@@ -608,7 +616,7 @@ footer a {
     }
 
     #join-gamerleague {
-        height: 115vh;
+        height: 100%;
         width: 100%;
         padding-top: 3.3vh;
         text-align: center;
@@ -620,7 +628,7 @@ footer a {
         border-radius: 25px;
         background-color: rgba(0, 0, 0, .6);
         width: 90vw;
-        height: 105vh;
+        height: 55vh;
     }
 
     .button-style {
@@ -642,13 +650,13 @@ footer a {
     }
 
     .navbar-nav {
-        --bs-nav-link-padding-x: 15px;
+        --bs-nav-link-padding-x: 1px;
     }
 
 
     /*--------------------------------------------Sign up section*/
     #sign-up {
-        height: 215vh;
+        height: 100%;
     }
 
     .signup-form {
@@ -659,15 +667,15 @@ footer a {
 
     /*--------------------------------------------Form opaque background heights*/
     .solo {
-        height: 55vh;
+        height: 32vh;
     }
 
     .duo {
-        height: 63vh;
+        height: 36vh;
     }
 
     .squad {
-        height: 79vh;
+        height: 45vh;
     }
 
     /*--------------------------------------------Form opaque background heights end*/
@@ -678,9 +686,17 @@ footer a {
 
     .signup-label {
         display: grid;
-        grid-template-columns: 150px 120px;
+        grid-template-columns: 90px 180px;
         align-items: center;
         padding-left: 20px;
+    }
+
+    .Join-label {
+        display: grid;
+        grid-template-columns: 140px 150px;
+        align-items: center;
+        padding-left: 10px;
+        padding-top: 9px;
     }
 
     .signup-input {
@@ -692,7 +708,6 @@ footer a {
         position: relative;
         left: 45vw;
         top: 4vh;
-
     }
 
     .register {
