@@ -572,8 +572,8 @@ footer a {
     }
 
     #cta {
-        height: 65vh;
-        padding-top: 6vh;
+        height: 62vh;
+        padding-top: 4.3vh;
 
     }
 
@@ -731,23 +731,24 @@ footer a {
     /*--------------------------------------------Contact Us*/
 
     #contact-us {
-        height: 170vh;
+        height: 100%;
         padding-top: 2.5vh;
        
     }
 
     .contact-us-form {
         margin: auto;
-        width: 85vw;
-        height: 140vh;
+        width: 87vw;
+        height: 82vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 100px 150px;
+        grid-template-columns: 70px 200px;
         align-items: center;
         padding-top: 9px;
+        padding-right: 20px;
     }
 
     .contact-input {
