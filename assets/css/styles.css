@@ -1505,7 +1505,7 @@ footer a {
 
     .contact-label {
         display: grid;
-        grid-template-columns: 100px 230px;
+        grid-template-columns: 100px 270px;
         align-items: center;
         padding-top: 9px;
         padding-right: 20px;
@@ -1739,7 +1739,7 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
@@ -1760,7 +1760,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-
+        left: 15vw;
     }
 
     /*--------------------------------------------photos*/
@@ -1980,13 +1980,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 170px 220px;
+        grid-template-columns: 170px 260px;
         align-items: center;
         padding-top: 9px;
     }
@@ -2001,7 +2001,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-
+        left: 15vw;
     }
 
     /*--------------------------------------------photos*/
@@ -2221,13 +2221,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 170px 220px;
+        grid-template-columns: 170px 320px;
         align-items: center;
         padding-top: 9px;
     }
@@ -2242,7 +2242,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-
+        left: 15vw;
     }
 
     /*--------------------------------------------photos*/
@@ -2462,13 +2462,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 170px 220px;
+        grid-template-columns: 170px 350px;
         align-items: center;
         padding-top: 9px;
     }
@@ -2483,7 +2483,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-
+        left: 13vw;
     }
 
     /*--------------------------------------------photos*/
@@ -2703,13 +2703,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 170px 220px;
+        grid-template-columns: 170px 380px;
         align-items: center;
         padding-top: 9px;
     }
@@ -2724,7 +2724,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-
+        left: 12vw;
     }
 
     /*--------------------------------------------photos*/
@@ -2944,13 +2944,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 85vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 170px 220px;
+        grid-template-columns: 170px 420px;
         align-items: center;
         padding-top: 9px;
     }
@@ -2965,7 +2965,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-
+        left: 12vw;
     }
 
     /*--------------------------------------------photos*/
@@ -3410,13 +3410,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 95vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 200px 490px;
+        grid-template-columns: 200px 550px;
         align-items: center;
         padding-top: 9px;
     }
@@ -3431,7 +3431,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 1vw;
+        left: 12vw;
     }
 
     /*--------------------------------------------photos*/
@@ -3645,13 +3645,13 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 95vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
     .contact-label {
         display: grid;
-        grid-template-columns: 200px 490px;
+        grid-template-columns: 200px 590px;
         align-items: center;
         padding-top: 9px;
     }
@@ -3666,7 +3666,7 @@ footer a {
         transform: translate(-50%, -50%);
         position: relative;
         top: 5vh;
-        left: 1vw;
+        left: 12vw;
     }
 
     /*--------------------------------------------photos*/
@@ -3880,7 +3880,7 @@ footer a {
     .contact-us-form {
         margin: auto;
         width: 95vw;
-        height: 80vh;
+        height: 70vh;
         text-align: center;
     }
 
