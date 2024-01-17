@@ -47,14 +47,14 @@ Anyone is able to join the league via the form application on the join us page. 
 
 The goal of the website is to attract gamers of all levels who would like to compete in a game of their choice. 
 
-There is a clear naviation in the nav bar which directs you on where to join the league or sign up to competitions. It also directs you to a tournaments gallery where they can look at pictures of tournaments others have competed in.
+There is a clear navigation in the nav bar which directs you on where to join the league or sign up to competitions. It directs you to a tournaments gallery Where pictures of tournaments others have competed in can be viewed.
 
 Users can also contact GamerLeague if they have any issues either with the site, a tournament or player - whatever it may be. They can follow the contact us link in the footer and submit their issue.
 
 To make the user experience easy - I wanted the site to have:
 
 * A simple call to action on the main screen with a join GamerLeague button. This will take you directly to a single contact page - Even though this navigation exists on the nav bar - the aim is this button in the center of the screen next to the tagline will motivate gamers to join. 
-* A card displaying the tournaments that could be clicked on to redirect you to a the same contact page as the join button - the sign up section is on the lower part of the page. The idea is to have one single contact page that makes it a quicker and easier experience for the user.
+* A card displaying the tournaments that allows the user to be redirected to the same page as the ‘join’ button once clicked on. This page also contains a ‘sign up’ option further down. This allows the user an efficient and intuitive experience via access to a single contact page..
 
 ## User Stories
 To determine which approach to take with site features I detirmined the goals of different users from first time through to frequent users.
@@ -79,7 +79,7 @@ To determine which approach to take with site features I detirmined the goals of
 
 ## Wire Frames
 
-When designing this website I intended the site to have a very minimal design that was easy to spot what was relevant information and how to navigate to where they wanted to be. 
+When designing this website I intended to have a very minimal design that was easy to spot what was relevant information and how to navigate to where they wanted to be. 
 
 I have made some changes during the creation of the website. These changes were to the [Home Page](#home-page---wireframe-for-desktop-tablet-and-mobile), [Gallery Page](#gallery-page---wireframe-for-desktop-tablet-and-mobile) and the [Join Page](#join-page---wireframe-for-desktop-tablet-and-mobile)
 
@@ -88,7 +88,7 @@ I have made some changes during the creation of the website. These changes were 
 
 * Home page changes
 
-For the home page I was going to initially have 3 cards showing a different game - once clicked these would take you to a page with more dummy tournaments similar to the "upcoming tournaments" section - After discussing this with my mentor we agreed it was a bit too much and to keep it simple. Instead I opted fo the multiple games to be shown in the gallery page and use the games section instead to give more identity and content to the site. I chose to do an about us section with a brief description of the team behind the site and then embedded 2 videos to give the website a professional identity. One was a tutorial from a professional coach in ESports and another was a breakdown of a recent Esports tournament on a talkshow held by retired Esports pros. I felt this would help give the site an identity of a professional gaming league.
+Initially for the homepage, I had planned to have 3 cards each displaying different games - once clicked these would take you to a single page with more dummy tournaments similar to the "upcoming tournaments" section - After discussing this with my mentor we agreed it was a bit too much and to keep it simple. Instead I opted for the multiple games to be shown in the "gallery page" and use the games section instead to give more identity and content to the site. I chose to do an "about us" section with a brief description of the team behind the site and then embedded 2 videos to give the website a professional identity. One was a tutorial from a professional coach in ESports and another was a breakdown of a recent Esports tournament on a talkshow held by retired Esports pros. I felt this would help give the site an identity of a professional gaming league.
 
 ### Gallery Page - Wireframe for Desktop, Tablet and Mobile.
 ![An images showing the website wireframes across different devices](ux/wireframes/gallery-page-wireframes.png "Gallery Page Wireframe")
@@ -102,7 +102,7 @@ During the creation of the gallery page I had intended to have a page with 3 sec
 
 * Join Page changes
 
-The changes for the join page were more minimal. After discussing with my mentor Mitko we agreed on having one single contact page split into sections. The top section you can join the league and the bottom you can sign up for tournaments. As I had made the dummy tournaments a "solo", "Duo" and "Squad" it would mean that the sign up form for a solo or duo would only require one or two gamertags. I thought this would look out of place so I decided to make 3 seperate fieldsets in the signup section for each different tournament type. This also then allowed me to make the gamertags a required field that all had to be filled in order to sign up.  
+The changes for the join page were minimal. After discussing with my mentor Mitko we agreed on having one single contact page split into sections. You can join the league in the first section and sign up for tournaments in the second section. As I had made the dummy tournaments a "solo", "Duo" and "Squad" it would mean that the sign up form for a solo or duo would only require one or two gamertags. I thought this would look out of place so I decided to make 3 seperate fieldsets in the signup section for each different tournament type. This allowed me to make the gamertags a required field that all had to be filled in order to sign up.  
 
 ## Design
 
@@ -130,7 +130,7 @@ For the cards on the home page - I chose to keep these without the overlay to st
 
 * Nova Square 
     
-    * I chose Nova Square as the main font from google fontsas I felt it meshed well with a gaming brand due to the style of the lettering and the boldness of the text to stand out. I also had Sans serif as a back up in case this didn't work.
+    * I chose Nova Square as the main font from google fonts as I felt it meshed well with a gaming brand due to the style of the lettering and the boldness of the text to stand out. I also had Sans serif as a back up in case this didn't work.
 
 * Sans Serif
 
@@ -138,7 +138,7 @@ For the cards on the home page - I chose to keep these without the overlay to st
 
 ### WireFrames
 
-I created my wireframes using balsamiq wireframes. I found this simple and effective for coming up with how I wanted the site to look as it had a variety of ready available tools representing different parts of a website so I was able to design it how I envisioned it in my head.
+I created my wireframes using balsamiq wireframes. I found this simple and effective for assessing the sites appearance as it had a variety of ready available tools representing different parts of a website so I was able to design it how I envisioned it.
 
 ## Features
 * This website is targeting people looking to compete in game tournaments for cash prizes
@@ -152,12 +152,12 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 ![An image showing the navigation bar for desktop view.](features/development-images/navbar-desktop.png "Navbar Desktop View")
 ![An image showing the navigation bar for mobile view.](features/development-images/navbar-mobile.png "Navbar Mobile View")
 
-* The Nav bar is fixed to the top of every every page including the contact us page reachable through the footer.
+* The Nav bar is fixed to the top of every page including the contact us page reachable through the footer.
 * Includes links to the Home page, Tournaments page and the Signup/Join page. 
 * Where you are on the site can be easily identified as your current active page will be highlighted by a red border/background colour as well as a larger font at all times. You can also see which page you are hovering over because each link has a similar effect to the active page where it will turn red and the font will become larger.
-* Design is identical across every page.
+* Design is identical across all pages which allows the user to easiliy navigate the site.
 * Allows the user to easily explore the site by clicking each page at the top. you can get to and from each page without needing the backwards and forwards browser buttons. 
-* Has a mobile view consisting of a hamburger icon. Once selected this will bring a dropdown list of the pages as show below: 
+* Has a mobile view consisting of a hamburger icon. Once selected this will bring a dropdown list of the pages as shown below: 
 
 ![An image showing the navigation bar for mobile view when the page icon is toggled.](features/development-images/navbar-mobile-toggled.png "Navbar Mobile View")
 
@@ -167,7 +167,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 * Main heading consists of a background image with the Red vs Blue theme. The image features a shield and trophy to symbolise competition and a red and blue scoreboard on each side. 
 * Background image has an subtle animation that starts the image at full size and slowly zooms in bringing the trophy and shield slightly closer.
-* The main heading has a simple tagline to attract competitive users. It also set's the tone immediately for what the site is about.
+* The main heading has a simple tagline to attract competitive users. It also outlines the website's purpose.
 * Simple call to action in the form of a button to join the league. This button takes you through to the join page.
 
 #### Section 1 - Upcoming Tournaments
@@ -210,7 +210,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 * Single contact page for both joining the league and signing up to tournaments.
 * The user can choose which differnt tournament type they would like to enter.
-* Completetion takes you to form dump page on a seperate tab to ensure ease of use for user.
+* Completion  takes you to form dump page on a seperate tab to ensure ease of use for user.
 * Password parameters displayed upon hover over password
 
 #### Contact Us Page
@@ -218,7 +218,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 ![An image showing the website Contact us page.](features/development-images/contactus-desktop-view.png "Contact us")
 
 * Simple contact page with form asking for basic details and a text area to voice any feedback/concerns.
-* Completetion takes you to form dump page on a seperate tab to ensure ease of use for user.
+* Completion takes you to form dump page on a seperate tab to ensure ease of use for user.
 
 ## Features Left to Implement
 
@@ -234,7 +234,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 | Problem         | Action           | Status  |
 | ------------------------------------------------|:--------------------------------------:| -----:|
-| Hover function not applying to bootstrap nav bar.| Used google dev tools to find the bootstrap CSS, located the allocated class names names provided by bootstrap to target the areas I wanted to apply the hover effect. | Fixed |
+| Hover function not applying to bootstrap nav bar.| Used google dev tools to find the bootstrap CSS, located the allocated class names provided by bootstrap to target the areas I wanted to apply the hover effect. | Fixed |
 |  Text/buttons not centering over main page background image.   | Used the transform: Translate() method found on web3schools. by setting -50 for the x and y axis I was able to center it on the screen. Then I updated the position to absolute and used the top and left commands to get it where I wanted it on top of the image.      |   Fixed |
 | Unable to navigate between pages.| Issue with page link missing the **.** in .html. Added in the missing dot. Navigation now working correctly.      |    Fixed |
 | Multiple forms on same page are not acting separately when submitting.| Changed unique ID for each input/label within the indivual forms for solo/duo/squad. Each now able to sign in when filling out without requiring the other forms to be completed.      |    Fixed |
@@ -243,7 +243,7 @@ I created my wireframes using balsamiq wireframes. I found this simple and effec
 
 ## Testing
 
-Testing consisted os using the W3C Markup and CSS Validator to go through each page of the project and validate that the code has no errors. They can be located below: 
+Testing consisted of using the W3C Markup and CSS Validator to go through each page of the project and validate that the code has no errors. They can be located below: 
 
 * [W3C Markup Validator:](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -400,7 +400,7 @@ Testing consisted os using the W3C Markup and CSS Validator to go through each p
     * Used for importing my main font for the website
 
 * [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-    * Used for making web deelopment faster. My usage was for card columns + Nav bar.
+    * Used for making web development faster. My usage was for card columns + Nav bar.
 
 * [Font Awesome](https://fontawesome.com)
     * Used for importing logo's for the website.
@@ -411,14 +411,14 @@ Testing consisted os using the W3C Markup and CSS Validator to go through each p
 * [Am I Responsive](https://ui.dev/amiresponsive)
     * Mock picture for README file.
 
-## Deployment and local development
+## Deployment and local Development.
 
 *  ### GitHub Pages
 
 I used GitHub to deploy the live version of the website. To do this I had to: 
 
 1.  Log in to GitHub and locate the GitHub GamerLeague [Repository](https://github.com/Wxrren/GamerLeague)
-2.  Locate the "Settings" button at the top of the repository as show here:
+2.  Locate the "Settings" button at the top of the repository as shown here:
 
 ![An image showing the repository page with settings highlighted.](deployment/repository-settings-location.png "Settings")
 
@@ -493,7 +493,7 @@ Forking the repository allows you to make a copy of the original repository on m
 
 ### Content and Resources
 
-* All content was written by the myself.
+* All content was written by myself.
 * Information on flexbox was provided by: [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 * Information on CSS Grid was provided by: [Complete Guide Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
 * README Template provided by [Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME) & [Markdown Template](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables).
